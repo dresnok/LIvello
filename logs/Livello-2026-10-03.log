@@ -1,0 +1,92 @@
+[2026-10-03 16:33:16] [INFO] APP START
+[2026-10-03 16:33:16] [INFO] BaseDirectory: C:\Users\fasjola\Desktop\LocalBackup3\publish\
+[2026-10-03 16:33:16] [INFO] CurrentDirectory: C:\Users\fasjola\Desktop\LocalBackup3\publish
+[2026-10-03 16:33:16] [INFO] OS: Microsoft Windows NT 10.0.19045.0
+[2026-10-03 16:33:16] [INFO] PHP path: C:\Users\fasjola\Desktop\LocalBackup3\publish\php\php.exe
+[2026-10-03 16:33:16] [INFO] PHP exists: True
+[2026-10-03 16:33:16] [INFO] WWW path: C:\Users\fasjola\Desktop\LocalBackup3\publish\www
+[2026-10-03 16:33:16] [INFO] WWW exists: True
+[2026-10-03 16:33:17] [INFO] Selected port: 8899
+[2026-10-03 16:33:17] [INFO] Server URL: http://127.0.0.1:8899/
+[2026-10-03 16:33:17] [INFO] Starting PHP server...
+[2026-10-03 16:33:17] [INFO] PHP arguments: -S 127.0.0.1:8899 -t "C:\Users\fasjola\Desktop\LocalBackup3\publish\www"
+[2026-10-03 16:33:17] [INFO] PHP process started. PID: 5940
+[2026-10-03 16:33:17] [INFO] Waiting for PHP server...
+[2026-10-03 16:33:17] [INFO] Server check attempt 1: http://127.0.0.1:8899/
+[2026-10-03 16:33:20] [ERROR] Server check failed attempt 1.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 1 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Livello.Program.WaitForServer(String url, Int32 timeoutMs) in C:\Users\fasjola\Desktop\LocalBackup3\Program.cs:line 298
+[2026-10-03 16:33:20] [INFO] Server check attempt 2: http://127.0.0.1:8899/
+[2026-10-03 16:33:21] [ERROR] [PHP ERR] [Sat Oct  3 16:33:21 2026] PHP 8.5.5 Development Server (http://127.0.0.1:8899) started
+[2026-10-03 16:33:21] [ERROR] [PHP ERR] [Sat Oct  3 16:33:21 2026] 127.0.0.1:54145 Accepted
+[2026-10-03 16:33:21] [ERROR] Server check failed attempt 2.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 1 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Livello.Program.WaitForServer(String url, Int32 timeoutMs) in C:\Users\fasjola\Desktop\LocalBackup3\Program.cs:line 298
+[2026-10-03 16:33:21] [INFO] Server check attempt 3: http://127.0.0.1:8899/
+[2026-10-03 16:33:21] [ERROR] [PHP ERR] [Sat Oct  3 16:33:21 2026] 127.0.0.1:54145 [200]: GET /
+[2026-10-03 16:33:21] [ERROR] [PHP ERR] [Sat Oct  3 16:33:21 2026] 127.0.0.1:54145 Closing
+[2026-10-03 16:33:21] [INFO] Server response: 200 OK
+[2026-10-03 16:33:21] [INFO] PHP server responded OK.
+[2026-10-03 16:33:27] [ERROR] [PHP ERR] [Sat Oct  3 16:33:27 2026] 127.0.0.1:54148 Accepted
+[2026-10-03 16:33:27] [ERROR] [PHP ERR] [Sat Oct  3 16:33:27 2026] 127.0.0.1:54149 Accepted
+[2026-10-03 16:33:27] [ERROR] [PHP ERR] [Sat Oct  3 16:33:27 2026] 127.0.0.1:54148 Closed without sending a request; it was probably just an unused speculative preconnection
+[2026-10-03 16:33:27] [ERROR] [PHP ERR] [Sat Oct  3 16:33:27 2026] 127.0.0.1:54148 Closing
+[2026-10-03 16:33:27] [ERROR] [PHP ERR] [Sat Oct  3 16:33:27 2026] 127.0.0.1:54149 Closed without sending a request; it was probably just an unused speculative preconnection
+[2026-10-03 16:33:27] [ERROR] [PHP ERR] [Sat Oct  3 16:33:27 2026] 127.0.0.1:54149 Closing
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54150 Accepted
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54150 [200]: GET /
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54150 Closing
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54151 Accepted
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54152 Accepted
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54151 [200]: GET /assets/index-D-RPYxCH.css
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54152 [200]: GET /assets/index-CnsjK2gn.js
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54151 Closing
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54152 Closing
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54153 Accepted
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54153 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54153 Closing
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54155 Accepted
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54155 [200]: GET /api/backup/fast-backup-config-api.php
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54155 Closing
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54156 Accepted
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54156 [200]: GET /api/backup/cursor-1.png
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54156 Closing
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54157 Accepted
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54157 [200]: GET /api/backup/fast-backup-config-api.php?action=history
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54157 Closing
+[2026-10-03 16:33:28] [INFO] Livello tick: navigation-completed
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54159 Accepted
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54159 [200]: GET /api/backup/fast-backup-config-api.php
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54159 Closing
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54160 Accepted
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54160 [200]: GET /api/backup/fast-backup.php
+[2026-10-03 16:33:28] [ERROR] [PHP ERR] [Sat Oct  3 16:33:28 2026] 127.0.0.1:54160 Closing
+[2026-10-03 16:33:37] [ERROR] [PHP ERR] [Sat Oct  3 16:33:37 2026] 127.0.0.1:54162 Accepted
+[2026-10-03 16:33:37] [ERROR] [PHP ERR] [Sat Oct  3 16:33:37 2026] 127.0.0.1:54162 [200]: POST /api/backup/fast-backup-config-api.php
+[2026-10-03 16:33:37] [ERROR] [PHP ERR] [Sat Oct  3 16:33:37 2026] 127.0.0.1:54162 Closing
+[2026-10-03 16:33:38] [ERROR] [PHP ERR] [Sat Oct  3 16:33:38 2026] 127.0.0.1:54163 Accepted
+[2026-10-03 16:33:38] [ERROR] [PHP ERR] [Sat Oct  3 16:33:38 2026] 127.0.0.1:54163 [200]: POST /api/backup/fast-backup-config-api.php
+[2026-10-03 16:33:38] [ERROR] [PHP ERR] [Sat Oct  3 16:33:38 2026] 127.0.0.1:54163 Closing
+[2026-10-03 16:33:50] [INFO] Stopping PHP server...
+[2026-10-03 16:33:50] [ERROR] PHP process exited. ExitCode: -1
+[2026-10-03 16:33:50] [INFO] PHP server stopped.

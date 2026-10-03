@@ -1,0 +1,46 @@
+{
+    "enabled": true,
+    "mode": "daily_once",
+    "times": [
+        "08:00",
+        "12:00",
+        "22:00"
+    ],
+    "daily_once_time": "21:00",
+    "every_n_days": 2,
+    "start_date": "2026-10-03",
+    "month_day": 1,
+    "theme": "paper",
+    "backup_scope": "changed_only",
+    "backup_output_mode": "normal",
+    "file_filters": {
+        "include": "*",
+        "include_extensions": "*",
+        "exclude_extensions": "ini",
+        "exclude_directories": []
+    },
+    "system_paths": {
+        "backup_dir": "api/backup",
+        "php_dir": "api/backup"
+    },
+    "paths": {
+        "scan": [
+            {
+                "id": "path_333864051773",
+                "path": "",
+                "recursive": true,
+                "label": "",
+                "mode": "daily_once",
+                "daily_once_time": "21:00",
+                "times": [
+                    "08:00",
+                    "12:00",
+                    "22:00"
+                ],
+                "every_n_days": 2,
+                "start_date": "2026-10-03",
+                "month_day": 1
+            }
+        ]
+    }
+}

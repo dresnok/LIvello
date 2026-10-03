@@ -1,4 +1,5 @@
 Livello — wersja Windows
+Więcej na stronie progra24.pl
 
 Aplikacja przeznaczona jest dla systemu Windows.
 

@@ -57,3 +57,109 @@
 2026-10-03 14:33:26.151: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-10-03 14:33:26.151: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-10-03 14:33:50.344: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 09:51:32.205: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 09:51:32.205: [INFO] Profiles total count: 1
+2026-10-12 09:51:32.205: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-03T14:33:27.367Z
+2026-10-12 09:51:32.205: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 09:51:32.205: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-03T14:33:27.367Z
+2026-10-12 09:51:32.205: [INFO] OnDoneLoading sync enabled: 0
+2026-10-12 09:51:32.205: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-12 09:51:32.205: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-12 09:51:32.205: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 09:56:23.084: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:03:53.955: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:03:53.955: [INFO] Profiles total count: 1
+2026-10-12 15:03:54.117: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T09:56:21.591Z
+2026-10-12 15:03:54.117: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:03:54.117: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T09:56:21.591Z
+2026-10-12 15:03:54.117: [INFO] OnDoneLoading sync enabled: 0
+2026-10-12 15:03:54.117: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-12 15:03:54.117: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-12 15:03:54.117: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:05:32.550: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:05:32.550: [INFO] Profiles total count: 1
+2026-10-12 15:05:32.550: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:05:02.536Z
+2026-10-12 15:05:32.550: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:05:32.550: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:05:02.536Z
+2026-10-12 15:05:32.550: [INFO] OnDoneLoading sync enabled: 0
+2026-10-12 15:05:32.550: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-12 15:05:32.550: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-12 15:05:32.550: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:05:53.994: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:05:53.994: [INFO] Profiles total count: 1
+2026-10-12 15:05:53.995: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:05:32.608Z
+2026-10-12 15:05:53.995: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:05:53.995: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:05:32.608Z
+2026-10-12 15:05:53.995: [INFO] OnDoneLoading sync enabled: 0
+2026-10-12 15:05:53.995: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-12 15:05:53.995: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-12 15:05:53.995: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:06:13.529: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:08:28.795: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:08:28.795: [INFO] Profiles total count: 1
+2026-10-12 15:08:28.795: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:05:54.067Z
+2026-10-12 15:08:28.795: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:08:28.795: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:05:54.067Z
+2026-10-12 15:08:28.795: [INFO] OnDoneLoading sync enabled: 0
+2026-10-12 15:08:28.795: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-12 15:08:28.795: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-12 15:08:28.795: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:08:38.040: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:08:49.808: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:08:49.808: [INFO] Profiles total count: 1
+2026-10-12 15:08:49.808: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:08:28.865Z
+2026-10-12 15:08:49.808: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:08:49.808: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:08:28.865Z
+2026-10-12 15:08:49.808: [INFO] OnDoneLoading sync enabled: 0
+2026-10-12 15:08:49.808: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-12 15:08:49.808: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-12 15:08:49.808: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:09:12.201: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:09:50.371: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:09:50.371: [INFO] Profiles total count: 1
+2026-10-12 15:09:50.371: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:09:12.141Z
+2026-10-12 15:09:50.371: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:09:50.371: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:09:12.141Z
+2026-10-12 15:09:50.371: [INFO] OnDoneLoading sync enabled: 0
+2026-10-12 15:09:50.371: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-12 15:09:50.372: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-12 15:09:50.372: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 15:12:38.175: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:12:38.175: [INFO] Profiles total count: 1
+2026-10-12 15:12:38.175: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:09:50.456Z
+2026-10-12 15:12:38.175: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-12 15:12:38.175: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-12T15:09:50.456Z
+2026-10-12 15:12:38.175: [INFO] OnDoneLoading sync enabled: 0
+2026-10-12 15:12:38.175: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-12 15:12:38.175: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-12 15:12:38.175: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-20 13:01:55.016: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-20 13:01:55.016: [INFO] Profiles total count: 1
+2026-10-20 13:01:55.079: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-16T02:54:35.260Z
+2026-10-20 13:01:55.079: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-20 13:01:55.079: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-16T02:54:35.260Z
+2026-10-20 13:01:55.079: [INFO] OnDoneLoading sync enabled: 0
+2026-10-20 13:01:55.080: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-20 13:01:55.080: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-20 13:01:55.080: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-20 13:42:28.822: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-20 17:18:19.157: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-20 17:18:19.157: [INFO] Profiles total count: 1
+2026-10-20 17:18:19.274: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-20T13:03:29.475Z
+2026-10-20 17:18:19.274: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-20 17:18:19.274: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-20T13:03:29.475Z
+2026-10-20 17:18:19.274: [INFO] OnDoneLoading sync enabled: 0
+2026-10-20 17:18:19.274: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-20 17:18:19.274: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-20 17:18:19.274: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-20 18:20:10.109: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-20 18:22:20.951: [INFO] CurrentProfilePath: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-20 18:22:20.951: [INFO] Profiles total count: 1
+2026-10-20 18:22:20.951: [INFO] Profile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-20T18:19:27.664Z
+2026-10-20 18:22:20.951: [INFO] LastUsedProfileDir: C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default
+2026-10-20 18:22:20.951: [INFO] MostRecentlyActiveProfile: name=Profil 1 path=C:\Users\fasjola\Desktop\LocalBackup3\publish\Livello.exe.WebView2\EBWebView\Default lastActive=2026-10-20T18:19:27.664Z
+2026-10-20 18:22:20.951: [INFO] OnDoneLoading sync enabled: 0
+2026-10-20 18:22:20.951: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-20 18:22:20.951: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-20 18:22:20.951: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-20 18:36:34.917: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

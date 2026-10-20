@@ -1,0 +1,1438 @@
+[2026-10-20 15:01:46] [INFO] APP START
+[2026-10-20 15:01:46] [INFO] BaseDirectory: C:\Users\fasjola\Desktop\LocalBackup3\publish\
+[2026-10-20 15:01:46] [INFO] CurrentDirectory: C:\Users\fasjola\Desktop\LocalBackup3\publish
+[2026-10-20 15:01:46] [INFO] OS: Microsoft Windows NT 10.0.19045.0
+[2026-10-20 15:01:46] [INFO] PHP path: C:\Users\fasjola\Desktop\LocalBackup3\publish\php\php.exe
+[2026-10-20 15:01:46] [INFO] PHP exists: True
+[2026-10-20 15:01:46] [INFO] WWW path: C:\Users\fasjola\Desktop\LocalBackup3\publish\www
+[2026-10-20 15:01:46] [INFO] WWW exists: True
+[2026-10-20 15:01:46] [INFO] Selected port: 8899
+[2026-10-20 15:01:46] [INFO] Server URL: http://127.0.0.1:8899/
+[2026-10-20 15:01:46] [INFO] Starting PHP server...
+[2026-10-20 15:01:46] [INFO] PHP arguments: -S 127.0.0.1:8899 -t "C:\Users\fasjola\Desktop\LocalBackup3\publish\www"
+[2026-10-20 15:01:46] [INFO] PHP process started. PID: 9168
+[2026-10-20 15:01:46] [INFO] Waiting for PHP server...
+[2026-10-20 15:01:46] [INFO] Server check attempt 1: http://127.0.0.1:8899/
+[2026-10-20 15:01:49] [ERROR] Server check failed attempt 1.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 1 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Livello.Program.WaitForServer(String url, Int32 timeoutMs) in C:\Users\fasjola\Desktop\LocalBackup3\Program.cs:line 298
+[2026-10-20 15:01:49] [INFO] Server check attempt 2: http://127.0.0.1:8899/
+[2026-10-20 15:01:50] [ERROR] [PHP ERR] [Tue Oct 20 15:01:50 2026] PHP 8.5.5 Development Server (http://127.0.0.1:8899) started
+[2026-10-20 15:01:50] [ERROR] [PHP ERR] [Tue Oct 20 15:01:50 2026] 127.0.0.1:61276 Accepted
+[2026-10-20 15:01:50] [ERROR] Server check failed attempt 2.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 1 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Livello.Program.WaitForServer(String url, Int32 timeoutMs) in C:\Users\fasjola\Desktop\LocalBackup3\Program.cs:line 298
+[2026-10-20 15:01:51] [INFO] Server check attempt 3: http://127.0.0.1:8899/
+[2026-10-20 15:01:51] [ERROR] [PHP ERR] [Tue Oct 20 15:01:51 2026] 127.0.0.1:61276 [200]: GET /
+[2026-10-20 15:01:51] [ERROR] [PHP ERR] [Tue Oct 20 15:01:51 2026] 127.0.0.1:61276 Closing
+[2026-10-20 15:01:51] [INFO] Server response: 200 OK
+[2026-10-20 15:01:51] [INFO] PHP server responded OK.
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61278 Accepted
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61279 Accepted
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61278 Closed without sending a request; it was probably just an unused speculative preconnection
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61278 Closing
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61279 Closed without sending a request; it was probably just an unused speculative preconnection
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61279 Closing
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61280 Accepted
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61280 [200]: GET /
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61280 Closing
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61281 Accepted
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61282 Accepted
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61281 [200]: GET /assets/index-Bt57YHNn.css
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61282 [200]: GET /assets/index-CHrRMiK0.js
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61281 Closing
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61282 Closing
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61284 Accepted
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61284 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61284 Closing
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61285 Accepted
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61285 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61285 Closing
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61286 Accepted
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61286 [200]: GET /api/data/cursor-1.png
+[2026-10-20 15:01:57] [ERROR] [PHP ERR] [Tue Oct 20 15:01:57 2026] 127.0.0.1:61286 Closing
+[2026-10-20 15:01:58] [ERROR] [PHP ERR] [Tue Oct 20 15:01:58 2026] 127.0.0.1:61288 Accepted
+[2026-10-20 15:01:58] [ERROR] [PHP ERR] [Tue Oct 20 15:01:58 2026] 127.0.0.1:61288 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 15:01:58] [ERROR] [PHP ERR] [Tue Oct 20 15:01:58 2026] 127.0.0.1:61288 Closing
+[2026-10-20 15:01:58] [INFO] Livello tick: navigation-completed
+[2026-10-20 15:01:58] [ERROR] [PHP ERR] [Tue Oct 20 15:01:58 2026] 127.0.0.1:61289 Accepted
+[2026-10-20 15:01:58] [ERROR] [PHP ERR] [Tue Oct 20 15:01:58 2026] 127.0.0.1:61289 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 15:01:58] [ERROR] [PHP ERR] [Tue Oct 20 15:01:58 2026] 127.0.0.1:61289 Closing
+[2026-10-20 15:01:58] [ERROR] [PHP ERR] [Tue Oct 20 15:01:58 2026] 127.0.0.1:61290 Accepted
+[2026-10-20 15:02:34] [ERROR] [PHP ERR] [Tue Oct 20 15:02:34 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 15:02:34] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 15:02:34] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(441): sha1_file('C:/Users/fasjol...')
+[2026-10-20 15:02:34] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(251): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 15:02:34] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 15:02:34] [ERROR] [PHP ERR] [Tue Oct 20 15:02:34 2026] 127.0.0.1:61290 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 15:02:34] [ERROR] [PHP ERR] [Tue Oct 20 15:02:34 2026] 127.0.0.1:61290 Closing
+[2026-10-20 15:03:03] [ERROR] [PHP ERR] [Tue Oct 20 15:03:03 2026] 127.0.0.1:61300 Accepted
+[2026-10-20 15:03:03] [ERROR] [PHP ERR] [Tue Oct 20 15:03:03 2026] 127.0.0.1:61300 [200]: GET /assets/index-Bt57YHNn.css
+[2026-10-20 15:03:03] [ERROR] [PHP ERR] [Tue Oct 20 15:03:03 2026] 127.0.0.1:61300 Closing
+[2026-10-20 15:03:03] [ERROR] [PHP ERR] [Tue Oct 20 15:03:03 2026] 127.0.0.1:61301 Accepted
+[2026-10-20 15:03:03] [ERROR] [PHP ERR] [Tue Oct 20 15:03:03 2026] 127.0.0.1:61301 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 15:03:03] [ERROR] [PHP ERR] [Tue Oct 20 15:03:03 2026] 127.0.0.1:61301 Closing
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61337 Accepted
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61338 Accepted
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61337 [200]: GET /
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61337 Closing
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61338 [200]: GET /assets/index-CHrRMiK0.js
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61338 Closing
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61339 Accepted
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61339 [200]: GET /assets/index-Bt57YHNn.css
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61339 Closing
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61340 Accepted
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61340 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61340 Closing
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61341 Accepted
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61341 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61341 Closing
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61342 Accepted
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61342 [200]: GET /api/data/cursor-1.png
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61342 Closing
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61343 Accepted
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61343 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61343 Closing
+[2026-10-20 15:03:26] [INFO] Livello tick: navigation-completed
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61344 Accepted
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61344 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61344 Closing
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61345 Accepted
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61345 [200]: GET /api/data/fast-backup.php
+[2026-10-20 15:03:26] [ERROR] [PHP ERR] [Tue Oct 20 15:03:26 2026] 127.0.0.1:61345 Closing
+[2026-10-20 15:42:28] [INFO] Stopping PHP server...
+[2026-10-20 15:42:29] [ERROR] PHP process exited. ExitCode: -1
+[2026-10-20 15:42:29] [INFO] PHP server stopped.
+[2026-10-20 19:18:16] [INFO] APP START
+[2026-10-20 19:18:16] [INFO] BaseDirectory: C:\Users\fasjola\Desktop\LocalBackup3\publish\
+[2026-10-20 19:18:16] [INFO] CurrentDirectory: C:\Users\fasjola\Desktop\LocalBackup3\publish
+[2026-10-20 19:18:16] [INFO] OS: Microsoft Windows NT 10.0.19045.0
+[2026-10-20 19:18:16] [INFO] PHP path: C:\Users\fasjola\Desktop\LocalBackup3\publish\php\php.exe
+[2026-10-20 19:18:16] [INFO] PHP exists: True
+[2026-10-20 19:18:16] [INFO] WWW path: C:\Users\fasjola\Desktop\LocalBackup3\publish\www
+[2026-10-20 19:18:16] [INFO] WWW exists: True
+[2026-10-20 19:18:16] [INFO] Selected port: 8899
+[2026-10-20 19:18:16] [INFO] Server URL: http://127.0.0.1:8899/
+[2026-10-20 19:18:16] [INFO] Starting PHP server...
+[2026-10-20 19:18:16] [INFO] PHP arguments: -S 127.0.0.1:8899 -t "C:\Users\fasjola\Desktop\LocalBackup3\publish\www"
+[2026-10-20 19:18:16] [INFO] PHP process started. PID: 5532
+[2026-10-20 19:18:16] [INFO] Waiting for PHP server...
+[2026-10-20 19:18:16] [INFO] Server check attempt 1: http://127.0.0.1:8899/
+[2026-10-20 19:18:16] [ERROR] [PHP ERR] [Tue Oct 20 19:18:16 2026] PHP 8.5.5 Development Server (http://127.0.0.1:8899) started
+[2026-10-20 19:18:16] [ERROR] [PHP ERR] [Tue Oct 20 19:18:16 2026] 127.0.0.1:63051 Accepted
+[2026-10-20 19:18:16] [ERROR] [PHP ERR] [Tue Oct 20 19:18:16 2026] 127.0.0.1:63051 [200]: GET /
+[2026-10-20 19:18:16] [ERROR] [PHP ERR] [Tue Oct 20 19:18:16 2026] 127.0.0.1:63051 Closing
+[2026-10-20 19:18:16] [INFO] Server response: 200 OK
+[2026-10-20 19:18:16] [INFO] PHP server responded OK.
+[2026-10-20 19:18:19] [ERROR] [PHP ERR] [Tue Oct 20 19:18:19 2026] 127.0.0.1:63055 Accepted
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:19 2026] 127.0.0.1:63056 Accepted
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63055 [200]: GET /
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63055 Closing
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63057 Accepted
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63056 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63057 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63056 Closing
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63057 Closing
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63058 Accepted
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63058 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63058 Closing
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63059 Accepted
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63059 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63059 Closing
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63060 Accepted
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63060 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63060 Closing
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63061 Accepted
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63061 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:18:21] [ERROR] [PHP ERR] [Tue Oct 20 19:18:21 2026] 127.0.0.1:63061 Closing
+[2026-10-20 19:18:21] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63062 Accepted
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63062 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63062 Closing
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63063 Accepted
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63063 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63063 Closing
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63064 Accepted
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63064 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63064 Closing
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63065 Accepted
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63065 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:18:22] [ERROR] [PHP ERR] [Tue Oct 20 19:18:22 2026] 127.0.0.1:63065 Closing
+[2026-10-20 19:18:26] [ERROR] [PHP ERR] [Tue Oct 20 19:18:26 2026] 127.0.0.1:63073 Accepted
+[2026-10-20 19:18:26] [ERROR] [PHP ERR] [Tue Oct 20 19:18:26 2026] 127.0.0.1:63073 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:18:26] [ERROR] [PHP ERR] [Tue Oct 20 19:18:26 2026] 127.0.0.1:63073 Closing
+[2026-10-20 19:18:26] [ERROR] [PHP ERR] [Tue Oct 20 19:18:26 2026] 127.0.0.1:63074 Accepted
+[2026-10-20 19:18:26] [ERROR] [PHP ERR] [Tue Oct 20 19:18:26 2026] 127.0.0.1:63074 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:18:26] [ERROR] [PHP ERR] [Tue Oct 20 19:18:26 2026] 127.0.0.1:63074 Closing
+[2026-10-20 19:18:33] [ERROR] [PHP ERR] [Tue Oct 20 19:18:33 2026] 127.0.0.1:63107 Accepted
+[2026-10-20 19:18:33] [ERROR] [PHP ERR] [Tue Oct 20 19:18:33 2026] 127.0.0.1:63107 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:18:33] [ERROR] [PHP ERR] [Tue Oct 20 19:18:33 2026] 127.0.0.1:63107 Closing
+[2026-10-20 19:19:21] [ERROR] [PHP ERR] [Tue Oct 20 19:19:21 2026] 127.0.0.1:63295 Accepted
+[2026-10-20 19:19:21] [ERROR] [PHP ERR] [Tue Oct 20 19:19:21 2026] 127.0.0.1:63295 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:19:21] [ERROR] [PHP ERR] [Tue Oct 20 19:19:21 2026] 127.0.0.1:63295 Closing
+[2026-10-20 19:19:23] [ERROR] [PHP ERR] [Tue Oct 20 19:19:23 2026] 127.0.0.1:63309 Accepted
+[2026-10-20 19:19:23] [ERROR] [PHP ERR] [Tue Oct 20 19:19:23 2026] 127.0.0.1:63309 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:19:23] [ERROR] [PHP ERR] [Tue Oct 20 19:19:23 2026] 127.0.0.1:63309 Closing
+[2026-10-20 19:19:32] [ERROR] [PHP ERR] [Tue Oct 20 19:19:32 2026] 127.0.0.1:63347 Accepted
+[2026-10-20 19:19:32] [ERROR] [PHP ERR] [Tue Oct 20 19:19:32 2026] 127.0.0.1:63347 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:19:32] [ERROR] [PHP ERR] [Tue Oct 20 19:19:32 2026] 127.0.0.1:63347 Closing
+[2026-10-20 19:19:37] [ERROR] [PHP ERR] [Tue Oct 20 19:19:37 2026] 127.0.0.1:63369 Accepted
+[2026-10-20 19:19:37] [ERROR] [PHP ERR] [Tue Oct 20 19:19:37 2026] 127.0.0.1:63369 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:19:37] [ERROR] [PHP ERR] [Tue Oct 20 19:19:37 2026] 127.0.0.1:63369 Closing
+[2026-10-20 19:19:38] [ERROR] [PHP ERR] [Tue Oct 20 19:19:38 2026] 127.0.0.1:63370 Accepted
+[2026-10-20 19:19:38] [ERROR] [PHP ERR] [Tue Oct 20 19:19:38 2026] 127.0.0.1:63370 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:19:38] [ERROR] [PHP ERR] [Tue Oct 20 19:19:38 2026] 127.0.0.1:63370 Closing
+[2026-10-20 19:20:06] [ERROR] [PHP ERR] [Tue Oct 20 19:20:06 2026] 127.0.0.1:63485 Accepted
+[2026-10-20 19:20:06] [ERROR] [PHP ERR] [Tue Oct 20 19:20:06 2026] 127.0.0.1:63485 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:20:06] [ERROR] [PHP ERR] [Tue Oct 20 19:20:06 2026] 127.0.0.1:63485 Closing
+[2026-10-20 19:20:07] [ERROR] [PHP ERR] [Tue Oct 20 19:20:07 2026] 127.0.0.1:63490 Accepted
+[2026-10-20 19:20:07] [ERROR] [PHP ERR] [Tue Oct 20 19:20:07 2026] 127.0.0.1:63490 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:20:07] [ERROR] [PHP ERR] [Tue Oct 20 19:20:07 2026] 127.0.0.1:63490 Closing
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63503 Accepted
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63504 Accepted
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63503 [200]: GET /
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63503 Closing
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63504 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63504 Closing
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63505 Accepted
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63505 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63505 Closing
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63506 Accepted
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63506 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63506 Closing
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63507 Accepted
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63507 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63507 Closing
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63508 Accepted
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63508 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63508 Closing
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63509 Accepted
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63509 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63509 Closing
+[2026-10-20 19:20:10] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63510 Accepted
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63510 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63510 Closing
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63511 Accepted
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63511 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63511 Closing
+[2026-10-20 19:20:10] [ERROR] [PHP ERR] [Tue Oct 20 19:20:10 2026] 127.0.0.1:63512 Accepted
+[2026-10-20 19:20:47] [ERROR] [PHP ERR] [Tue Oct 20 19:20:47 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:20:47] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:20:47] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(441): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:20:47] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(251): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:20:47] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:20:47] [ERROR] [PHP ERR] [Tue Oct 20 19:20:47 2026] 127.0.0.1:63512 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:20:47] [ERROR] [PHP ERR] [Tue Oct 20 19:20:47 2026] 127.0.0.1:63512 Closing
+[2026-10-20 19:20:47] [ERROR] [PHP ERR] [Tue Oct 20 19:20:47 2026] 127.0.0.1:63513 Accepted
+[2026-10-20 19:20:47] [ERROR] [PHP ERR] [Tue Oct 20 19:20:47 2026] 127.0.0.1:63514 Accepted
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(441): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(251): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] 127.0.0.1:63513 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] 127.0.0.1:63513 Closing
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] 127.0.0.1:63594 Accepted
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] 127.0.0.1:63514 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] 127.0.0.1:63595 Accepted
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] 127.0.0.1:63594 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] 127.0.0.1:63608 Accepted
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] 127.0.0.1:63595 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:21:17] [ERROR] [PHP ERR] [Tue Oct 20 19:21:17 2026] 127.0.0.1:63514 Closing
+[2026-10-20 19:21:49] [ERROR] [PHP ERR] [Tue Oct 20 19:21:49 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:21:49] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:21:49] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(441): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:21:49] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(251): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:21:49] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:21:49] [ERROR] [PHP ERR] [Tue Oct 20 19:21:49 2026] 127.0.0.1:63608 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:21:49] [ERROR] [PHP ERR] [Tue Oct 20 19:21:49 2026] 127.0.0.1:63608 Closing
+[2026-10-20 19:21:49] [ERROR] [PHP ERR] [Tue Oct 20 19:21:49 2026] 127.0.0.1:63594 Closing
+[2026-10-20 19:21:49] [ERROR] [PHP ERR] [Tue Oct 20 19:21:49 2026] 127.0.0.1:63595 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63783 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63784 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63783 [200]: GET /
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63783 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63785 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63784 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63785 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63784 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63785 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63786 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63786 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63786 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63787 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63787 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63787 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63788 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63788 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63788 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63789 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63789 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63789 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63790 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63790 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63790 Closing
+[2026-10-20 19:21:58] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63791 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63791 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63791 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63792 Accepted
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63792 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63792 Closing
+[2026-10-20 19:21:58] [ERROR] [PHP ERR] [Tue Oct 20 19:21:58 2026] 127.0.0.1:63793 Accepted
+[2026-10-20 19:22:28] [ERROR] [PHP ERR] [Tue Oct 20 19:22:28 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:22:28] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:22:28] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(441): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:22:28] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(251): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:22:28] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:22:28] [ERROR] [PHP ERR] [Tue Oct 20 19:22:28 2026] 127.0.0.1:63793 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:22:28] [ERROR] [PHP ERR] [Tue Oct 20 19:22:28 2026] 127.0.0.1:63793 Closing
+[2026-10-20 19:22:28] [ERROR] [PHP ERR] [Tue Oct 20 19:22:28 2026] 127.0.0.1:63794 Accepted
+[2026-10-20 19:22:58] [ERROR] [PHP ERR] [Tue Oct 20 19:22:58 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:22:58] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:22:58] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(441): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:22:58] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(251): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:22:58] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:22:58] [ERROR] [PHP ERR] [Tue Oct 20 19:22:58 2026] 127.0.0.1:63794 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:22:58] [ERROR] [PHP ERR] [Tue Oct 20 19:22:58 2026] 127.0.0.1:63794 Closing
+[2026-10-20 19:23:19] [INFO] Livello tick: timer
+[2026-10-20 19:23:19] [ERROR] [PHP ERR] [Tue Oct 20 19:23:19 2026] 127.0.0.1:64116 Accepted
+[2026-10-20 19:23:19] [ERROR] [PHP ERR] [Tue Oct 20 19:23:19 2026] 127.0.0.1:64116 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:23:19] [ERROR] [PHP ERR] [Tue Oct 20 19:23:19 2026] 127.0.0.1:64116 Closing
+[2026-10-20 19:23:19] [ERROR] [PHP ERR] [Tue Oct 20 19:23:19 2026] 127.0.0.1:64117 Accepted
+[2026-10-20 19:23:49] [ERROR] [PHP ERR] [Tue Oct 20 19:23:49 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:23:49] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:23:49] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(441): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:23:49] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(251): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:23:49] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:23:49] [ERROR] [PHP ERR] [Tue Oct 20 19:23:49 2026] 127.0.0.1:64117 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:23:49] [ERROR] [PHP ERR] [Tue Oct 20 19:23:49 2026] 127.0.0.1:64117 Closing
+[2026-10-20 19:28:19] [INFO] Livello tick: timer
+[2026-10-20 19:28:19] [ERROR] [PHP ERR] [Tue Oct 20 19:28:19 2026] 127.0.0.1:65181 Accepted
+[2026-10-20 19:28:19] [ERROR] [PHP ERR] [Tue Oct 20 19:28:19 2026] 127.0.0.1:65181 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:28:19] [ERROR] [PHP ERR] [Tue Oct 20 19:28:19 2026] 127.0.0.1:65181 Closing
+[2026-10-20 19:28:19] [ERROR] [PHP ERR] [Tue Oct 20 19:28:19 2026] 127.0.0.1:65182 Accepted
+[2026-10-20 19:28:49] [ERROR] [PHP ERR] [Tue Oct 20 19:28:49 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:28:49] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:28:49] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(441): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:28:49] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(251): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:28:49] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:28:49] [ERROR] [PHP ERR] [Tue Oct 20 19:28:49 2026] 127.0.0.1:65182 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 441
+[2026-10-20 19:28:49] [ERROR] [PHP ERR] [Tue Oct 20 19:28:49 2026] 127.0.0.1:65182 Closing
+[2026-10-20 19:33:19] [INFO] Livello tick: timer
+[2026-10-20 19:33:19] [ERROR] [PHP ERR] [Tue Oct 20 19:33:19 2026] 127.0.0.1:65203 Accepted
+[2026-10-20 19:33:19] [ERROR] [PHP ERR] [Tue Oct 20 19:33:19 2026] 127.0.0.1:65203 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:33:19] [ERROR] [PHP ERR] [Tue Oct 20 19:33:19 2026] 127.0.0.1:65203 Closing
+[2026-10-20 19:33:19] [ERROR] [PHP ERR] [Tue Oct 20 19:33:19 2026] 127.0.0.1:65204 Accepted
+[2026-10-20 19:33:19] [ERROR] [PHP ERR] [Tue Oct 20 19:33:19 2026] PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:33:19] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:33:19] [ERROR] [PHP ERR] #0 {main}
+[2026-10-20 19:33:19] [ERROR] [PHP ERR] [Tue Oct 20 19:33:19 2026] 127.0.0.1:65204 [500]: GET /api/data/fast-backup.php - strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:33:19] [ERROR] [PHP ERR] [Tue Oct 20 19:33:19 2026] 127.0.0.1:65204 Closing
+[2026-10-20 19:34:00] [ERROR] [PHP ERR] [Tue Oct 20 19:34:00 2026] 127.0.0.1:65212 Accepted
+[2026-10-20 19:34:00] [ERROR] [PHP ERR] [Tue Oct 20 19:34:00 2026] 127.0.0.1:65213 Accepted
+[2026-10-20 19:34:00] [ERROR] [PHP ERR] [Tue Oct 20 19:34:00 2026] 127.0.0.1:65212 [200]: GET /
+[2026-10-20 19:34:00] [ERROR] [PHP ERR] [Tue Oct 20 19:34:00 2026] 127.0.0.1:65212 Closing
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65214 Accepted
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65213 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65214 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65213 Closing
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65214 Closing
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65215 Accepted
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65215 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65215 Closing
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65216 Accepted
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65216 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65217 Accepted
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65216 Closing
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65217 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65217 Closing
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65218 Accepted
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65218 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65218 Closing
+[2026-10-20 19:34:01] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65219 Accepted
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65219 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65219 Closing
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65220 Accepted
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65220 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65220 Closing
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65221 Accepted
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] #0 {main}
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65221 [500]: GET /api/data/fast-backup.php - strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65221 Closing
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65222 Accepted
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] #0 {main}
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65222 [500]: GET /api/data/fast-backup.php - strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:01] [ERROR] [PHP ERR] [Tue Oct 20 19:34:01 2026] 127.0.0.1:65222 Closing
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65223 Accepted
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65224 Accepted
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65223 [200]: GET /
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65223 Closing
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65225 Accepted
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65224 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65225 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65224 Closing
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65225 Closing
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65226 Accepted
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65226 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:34:12] [ERROR] [PHP ERR] [Tue Oct 20 19:34:12 2026] 127.0.0.1:65226 Closing
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65227 Accepted
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65227 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65227 Closing
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65228 Accepted
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65228 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65228 Closing
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65229 Accepted
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65229 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65229 Closing
+[2026-10-20 19:34:13] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65230 Accepted
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65230 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65230 Closing
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65231 Accepted
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65231 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65231 Closing
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65232 Accepted
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] #0 {main}
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65232 [500]: GET /api/data/fast-backup.php - strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65232 Closing
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65233 Accepted
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] #0 {main}
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65233 [500]: GET /api/data/fast-backup.php - strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:13] [ERROR] [PHP ERR] [Tue Oct 20 19:34:13 2026] 127.0.0.1:65233 Closing
+[2026-10-20 19:34:44] [ERROR] [PHP ERR] [Tue Oct 20 19:34:44 2026] 127.0.0.1:65286 Accepted
+[2026-10-20 19:34:44] [ERROR] [PHP ERR] [Tue Oct 20 19:34:44 2026] 127.0.0.1:65286 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:34:44] [ERROR] [PHP ERR] [Tue Oct 20 19:34:44 2026] 127.0.0.1:65286 Closing
+[2026-10-20 19:34:44] [ERROR] [PHP ERR] [Tue Oct 20 19:34:44 2026] 127.0.0.1:65287 Accepted
+[2026-10-20 19:34:44] [ERROR] [PHP ERR] [Tue Oct 20 19:34:44 2026] 127.0.0.1:65287 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:34:44] [ERROR] [PHP ERR] [Tue Oct 20 19:34:44 2026] 127.0.0.1:65287 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65353 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65354 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65353 [200]: GET /
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65353 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65355 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65354 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65354 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65355 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65355 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65356 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65356 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65356 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65357 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65357 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65357 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65358 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65358 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65358 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65359 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65359 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65359 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65360 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65360 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65360 Closing
+[2026-10-20 19:34:53] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65361 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65361 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65361 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65362 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65362 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65362 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65363 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] #0 {main}
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65363 [500]: GET /api/data/fast-backup.php - strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65363 Closing
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65366 Accepted
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] #0 {main}
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65366 [500]: GET /api/data/fast-backup.php - strict_types declaration must be the very first statement in the script in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 3
+[2026-10-20 19:34:53] [ERROR] [PHP ERR] [Tue Oct 20 19:34:53 2026] 127.0.0.1:65366 Closing
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49442 Accepted
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49443 Accepted
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49442 [200]: GET /
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49442 Closing
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49444 Accepted
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49443 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49443 Closing
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49444 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49444 Closing
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49445 Accepted
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49445 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49445 Closing
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49446 Accepted
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49446 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49446 Closing
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49447 Accepted
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49447 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49447 Closing
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49448 Accepted
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49448 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49448 Closing
+[2026-10-20 19:36:38] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49449 Accepted
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49449 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49449 Closing
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49450 Accepted
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49450 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49450 Closing
+[2026-10-20 19:36:38] [ERROR] [PHP ERR] [Tue Oct 20 19:36:38 2026] 127.0.0.1:49451 Accepted
+[2026-10-20 19:37:08] [ERROR] [PHP ERR] [Tue Oct 20 19:37:08 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 443
+[2026-10-20 19:37:08] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:37:08] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(443): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:37:08] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(253): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:37:08] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:37:08] [ERROR] [PHP ERR] [Tue Oct 20 19:37:08 2026] 127.0.0.1:49451 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 443
+[2026-10-20 19:37:08] [ERROR] [PHP ERR] [Tue Oct 20 19:37:08 2026] 127.0.0.1:49451 Closing
+[2026-10-20 19:37:08] [ERROR] [PHP ERR] [Tue Oct 20 19:37:08 2026] 127.0.0.1:49452 Accepted
+[2026-10-20 19:37:08] [ERROR] [PHP ERR] [Tue Oct 20 19:37:08 2026] 127.0.0.1:49453 Accepted
+[2026-10-20 19:37:38] [ERROR] [PHP ERR] [Tue Oct 20 19:37:38 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 443
+[2026-10-20 19:37:38] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:37:38] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(443): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:37:38] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(253): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:37:38] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:37:38] [ERROR] [PHP ERR] [Tue Oct 20 19:37:38 2026] 127.0.0.1:49452 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 443
+[2026-10-20 19:37:38] [ERROR] [PHP ERR] [Tue Oct 20 19:37:38 2026] 127.0.0.1:49452 Closing
+[2026-10-20 19:37:38] [ERROR] [PHP ERR] [Tue Oct 20 19:37:38 2026] 127.0.0.1:49453 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:37:38] [ERROR] [PHP ERR] [Tue Oct 20 19:37:38 2026] 127.0.0.1:49453 Closing
+[2026-10-20 19:38:19] [INFO] Livello tick: timer
+[2026-10-20 19:38:19] [ERROR] [PHP ERR] [Tue Oct 20 19:38:19 2026] 127.0.0.1:49875 Accepted
+[2026-10-20 19:38:19] [ERROR] [PHP ERR] [Tue Oct 20 19:38:19 2026] 127.0.0.1:49875 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:38:19] [ERROR] [PHP ERR] [Tue Oct 20 19:38:19 2026] 127.0.0.1:49875 Closing
+[2026-10-20 19:38:19] [ERROR] [PHP ERR] [Tue Oct 20 19:38:19 2026] 127.0.0.1:49876 Accepted
+[2026-10-20 19:38:49] [ERROR] [PHP ERR] [Tue Oct 20 19:38:49 2026] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 443
+[2026-10-20 19:38:49] [ERROR] [PHP ERR] Stack trace:
+[2026-10-20 19:38:49] [ERROR] [PHP ERR] #0 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(443): sha1_file('C:/Users/fasjol...')
+[2026-10-20 19:38:49] [ERROR] [PHP ERR] #1 C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php(253): processScanPath(Array, Array, 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'C:/Users/fasjol...', 'changed_only', 'normal', false, 'default')
+[2026-10-20 19:38:49] [ERROR] [PHP ERR] #2 {main}
+[2026-10-20 19:38:49] [ERROR] [PHP ERR] [Tue Oct 20 19:38:49 2026] 127.0.0.1:49876 [500]: GET /api/data/fast-backup.php - Maximum execution time of 30 seconds exceeded in C:\Users\fasjola\Desktop\LocalBackup3\publish\www\api\data\fast-backup.php on line 443
+[2026-10-20 19:38:49] [ERROR] [PHP ERR] [Tue Oct 20 19:38:49 2026] 127.0.0.1:49876 Closing
+[2026-10-20 19:39:58] [ERROR] [PHP ERR] [Tue Oct 20 19:39:58 2026] 127.0.0.1:50272 Accepted
+[2026-10-20 19:39:58] [ERROR] [PHP ERR] [Tue Oct 20 19:39:58 2026] 127.0.0.1:50273 Accepted
+[2026-10-20 19:39:58] [ERROR] [PHP ERR] [Tue Oct 20 19:39:58 2026] 127.0.0.1:50272 [200]: GET /
+[2026-10-20 19:39:58] [ERROR] [PHP ERR] [Tue Oct 20 19:39:58 2026] 127.0.0.1:50272 Closing
+[2026-10-20 19:39:58] [ERROR] [PHP ERR] [Tue Oct 20 19:39:58 2026] 127.0.0.1:50274 Accepted
+[2026-10-20 19:39:58] [ERROR] [PHP ERR] [Tue Oct 20 19:39:58 2026] 127.0.0.1:50273 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:39:58] [ERROR] [PHP ERR] [Tue Oct 20 19:39:58 2026] 127.0.0.1:50274 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:39:58] [ERROR] [PHP ERR] [Tue Oct 20 19:39:58 2026] 127.0.0.1:50273 Closing
+[2026-10-20 19:39:58] [ERROR] [PHP ERR] [Tue Oct 20 19:39:58 2026] 127.0.0.1:50274 Closing
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50275 Accepted
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50275 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50275 Closing
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50276 Accepted
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50276 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50276 Closing
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50277 Accepted
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50277 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50277 Closing
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50278 Accepted
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50278 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50278 Closing
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50279 Accepted
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50279 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50279 Closing
+[2026-10-20 19:39:59] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50280 Accepted
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50280 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50280 Closing
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50281 Accepted
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50281 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50281 Closing
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50282 Accepted
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50282 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50282 Closing
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50283 Accepted
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50283 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:39:59] [ERROR] [PHP ERR] [Tue Oct 20 19:39:59 2026] 127.0.0.1:50283 Closing
+[2026-10-20 19:40:30] [ERROR] [PHP ERR] [Tue Oct 20 19:40:30 2026] 127.0.0.1:50404 Accepted
+[2026-10-20 19:40:30] [ERROR] [PHP ERR] [Tue Oct 20 19:40:30 2026] 127.0.0.1:50404 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:40:30] [ERROR] [PHP ERR] [Tue Oct 20 19:40:30 2026] 127.0.0.1:50404 Closing
+[2026-10-20 19:40:30] [ERROR] [PHP ERR] [Tue Oct 20 19:40:30 2026] 127.0.0.1:50405 Accepted
+[2026-10-20 19:40:30] [ERROR] [PHP ERR] [Tue Oct 20 19:40:30 2026] 127.0.0.1:50405 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:40:30] [ERROR] [PHP ERR] [Tue Oct 20 19:40:30 2026] 127.0.0.1:50405 Closing
+[2026-10-20 19:42:24] [ERROR] [PHP ERR] [Tue Oct 20 19:42:24 2026] 127.0.0.1:50905 Accepted
+[2026-10-20 19:42:24] [ERROR] [PHP ERR] [Tue Oct 20 19:42:24 2026] 127.0.0.1:50905 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:42:24] [ERROR] [PHP ERR] [Tue Oct 20 19:42:24 2026] 127.0.0.1:50905 Closing
+[2026-10-20 19:42:25] [ERROR] [PHP ERR] [Tue Oct 20 19:42:25 2026] 127.0.0.1:50910 Accepted
+[2026-10-20 19:42:25] [ERROR] [PHP ERR] [Tue Oct 20 19:42:25 2026] 127.0.0.1:50910 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:42:25] [ERROR] [PHP ERR] [Tue Oct 20 19:42:25 2026] 127.0.0.1:50910 Closing
+[2026-10-20 19:42:27] [ERROR] [PHP ERR] [Tue Oct 20 19:42:27 2026] 127.0.0.1:50919 Accepted
+[2026-10-20 19:42:27] [ERROR] [PHP ERR] [Tue Oct 20 19:42:27 2026] 127.0.0.1:50919 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:42:27] [ERROR] [PHP ERR] [Tue Oct 20 19:42:27 2026] 127.0.0.1:50919 Closing
+[2026-10-20 19:42:28] [ERROR] [PHP ERR] [Tue Oct 20 19:42:28 2026] 127.0.0.1:50924 Accepted
+[2026-10-20 19:42:28] [ERROR] [PHP ERR] [Tue Oct 20 19:42:28 2026] 127.0.0.1:50924 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:42:28] [ERROR] [PHP ERR] [Tue Oct 20 19:42:28 2026] 127.0.0.1:50924 Closing
+[2026-10-20 19:42:30] [ERROR] [PHP ERR] [Tue Oct 20 19:42:30 2026] 127.0.0.1:50933 Accepted
+[2026-10-20 19:42:30] [ERROR] [PHP ERR] [Tue Oct 20 19:42:30 2026] 127.0.0.1:50933 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:42:30] [ERROR] [PHP ERR] [Tue Oct 20 19:42:30 2026] 127.0.0.1:50933 Closing
+[2026-10-20 19:42:31] [ERROR] [PHP ERR] [Tue Oct 20 19:42:31 2026] 127.0.0.1:50938 Accepted
+[2026-10-20 19:42:31] [ERROR] [PHP ERR] [Tue Oct 20 19:42:31 2026] 127.0.0.1:50938 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:42:31] [ERROR] [PHP ERR] [Tue Oct 20 19:42:31 2026] 127.0.0.1:50938 Closing
+[2026-10-20 19:42:32] [ERROR] [PHP ERR] [Tue Oct 20 19:42:32 2026] 127.0.0.1:50943 Accepted
+[2026-10-20 19:42:32] [ERROR] [PHP ERR] [Tue Oct 20 19:42:32 2026] 127.0.0.1:50944 Accepted
+[2026-10-20 19:42:32] [ERROR] [PHP ERR] [Tue Oct 20 19:42:32 2026] 127.0.0.1:50943 [200]: GET /
+[2026-10-20 19:42:32] [ERROR] [PHP ERR] [Tue Oct 20 19:42:32 2026] 127.0.0.1:50943 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50944 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50945 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50944 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50945 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50945 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50946 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50946 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50946 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50947 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50947 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50947 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50948 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50948 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50948 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50949 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50949 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50949 Closing
+[2026-10-20 19:42:33] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50950 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50950 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50950 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50951 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50951 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50951 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50952 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50952 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50952 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50953 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50953 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50953 Closing
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50954 Accepted
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50954 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:42:33] [ERROR] [PHP ERR] [Tue Oct 20 19:42:33 2026] 127.0.0.1:50954 Closing
+[2026-10-20 19:42:49] [ERROR] [PHP ERR] [Tue Oct 20 19:42:49 2026] 127.0.0.1:51019 Accepted
+[2026-10-20 19:42:49] [ERROR] [PHP ERR] [Tue Oct 20 19:42:49 2026] 127.0.0.1:51019 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:42:49] [ERROR] [PHP ERR] [Tue Oct 20 19:42:49 2026] 127.0.0.1:51019 Closing
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51088 Accepted
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51089 Accepted
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51088 [200]: GET /
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51088 Closing
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51089 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51090 Accepted
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51089 Closing
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51090 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51090 Closing
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51091 Accepted
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51091 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:43:05] [ERROR] [PHP ERR] [Tue Oct 20 19:43:05 2026] 127.0.0.1:51091 Closing
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51092 Accepted
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51092 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51092 Closing
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51093 Accepted
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51093 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51093 Closing
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51094 Accepted
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51094 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51094 Closing
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51095 Accepted
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51095 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51095 Closing
+[2026-10-20 19:43:06] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51096 Accepted
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51096 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51096 Closing
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51097 Accepted
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51097 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51097 Closing
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51098 Accepted
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51098 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51098 Closing
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51099 Accepted
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51099 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:43:06] [ERROR] [PHP ERR] [Tue Oct 20 19:43:06 2026] 127.0.0.1:51099 Closing
+[2026-10-20 19:43:19] [INFO] Livello tick: timer
+[2026-10-20 19:43:19] [ERROR] [PHP ERR] [Tue Oct 20 19:43:19 2026] 127.0.0.1:51156 Accepted
+[2026-10-20 19:43:19] [ERROR] [PHP ERR] [Tue Oct 20 19:43:19 2026] 127.0.0.1:51156 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:43:19] [ERROR] [PHP ERR] [Tue Oct 20 19:43:19 2026] 127.0.0.1:51156 Closing
+[2026-10-20 19:43:19] [ERROR] [PHP ERR] [Tue Oct 20 19:43:19 2026] 127.0.0.1:51157 Accepted
+[2026-10-20 19:43:19] [ERROR] [PHP ERR] [Tue Oct 20 19:43:19 2026] 127.0.0.1:51157 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:43:19] [ERROR] [PHP ERR] [Tue Oct 20 19:43:19 2026] 127.0.0.1:51157 Closing
+[2026-10-20 19:44:30] [ERROR] [PHP ERR] [Tue Oct 20 19:44:30 2026] 127.0.0.1:51439 Accepted
+[2026-10-20 19:44:30] [ERROR] [PHP ERR] [Tue Oct 20 19:44:30 2026] 127.0.0.1:51439 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:44:30] [ERROR] [PHP ERR] [Tue Oct 20 19:44:30 2026] 127.0.0.1:51439 Closing
+[2026-10-20 19:44:31] [ERROR] [PHP ERR] [Tue Oct 20 19:44:31 2026] 127.0.0.1:51444 Accepted
+[2026-10-20 19:44:31] [ERROR] [PHP ERR] [Tue Oct 20 19:44:31 2026] 127.0.0.1:51444 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:44:31] [ERROR] [PHP ERR] [Tue Oct 20 19:44:31 2026] 127.0.0.1:51444 Closing
+[2026-10-20 19:45:44] [ERROR] [PHP ERR] [Tue Oct 20 19:45:44 2026] 127.0.0.1:51734 Accepted
+[2026-10-20 19:45:44] [ERROR] [PHP ERR] [Tue Oct 20 19:45:44 2026] 127.0.0.1:51734 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:45:44] [ERROR] [PHP ERR] [Tue Oct 20 19:45:44 2026] 127.0.0.1:51734 Closing
+[2026-10-20 19:45:47] [ERROR] [PHP ERR] [Tue Oct 20 19:45:47 2026] 127.0.0.1:51747 Accepted
+[2026-10-20 19:45:47] [ERROR] [PHP ERR] [Tue Oct 20 19:45:47 2026] 127.0.0.1:51747 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:45:47] [ERROR] [PHP ERR] [Tue Oct 20 19:45:47 2026] 127.0.0.1:51747 Closing
+[2026-10-20 19:45:49] [ERROR] [PHP ERR] [Tue Oct 20 19:45:49 2026] 127.0.0.1:51756 Accepted
+[2026-10-20 19:45:49] [ERROR] [PHP ERR] [Tue Oct 20 19:45:49 2026] 127.0.0.1:51756 [200]: POST /api/data/fast-backup-config-api.php
+[2026-10-20 19:45:49] [ERROR] [PHP ERR] [Tue Oct 20 19:45:49 2026] 127.0.0.1:51756 Closing
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51781 Accepted
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51782 Accepted
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51781 [200]: GET /
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51781 Closing
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51783 Accepted
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51782 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51782 Closing
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51783 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51783 Closing
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51784 Accepted
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51784 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51784 Closing
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51785 Accepted
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51785 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51785 Closing
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51786 Accepted
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51786 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51786 Closing
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51787 Accepted
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51787 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51787 Closing
+[2026-10-20 19:45:55] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51788 Accepted
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51788 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51788 Closing
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51789 Accepted
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51789 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51789 Closing
+[2026-10-20 19:45:55] [ERROR] [PHP ERR] [Tue Oct 20 19:45:55 2026] 127.0.0.1:51790 Accepted
+[2026-10-20 19:45:59] [ERROR] [PHP ERR] [Tue Oct 20 19:45:59 2026] 127.0.0.1:51790 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:45:59] [ERROR] [PHP ERR] [Tue Oct 20 19:45:59 2026] 127.0.0.1:51790 Closing
+[2026-10-20 19:45:59] [ERROR] [PHP ERR] [Tue Oct 20 19:45:59 2026] 127.0.0.1:51791 Accepted
+[2026-10-20 19:45:59] [ERROR] [PHP ERR] [Tue Oct 20 19:45:59 2026] 127.0.0.1:51792 Accepted
+[2026-10-20 19:45:59] [ERROR] [PHP ERR] [Tue Oct 20 19:45:59 2026] 127.0.0.1:51791 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:45:59] [ERROR] [PHP ERR] [Tue Oct 20 19:45:59 2026] 127.0.0.1:51791 Closing
+[2026-10-20 19:45:59] [ERROR] [PHP ERR] [Tue Oct 20 19:45:59 2026] 127.0.0.1:51792 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:45:59] [ERROR] [PHP ERR] [Tue Oct 20 19:45:59 2026] 127.0.0.1:51792 Closing
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51895 Accepted
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51896 Accepted
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51895 [200]: GET /
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51895 Closing
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51897 Accepted
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51896 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51897 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51896 Closing
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51897 Closing
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51898 Accepted
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51898 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51898 Closing
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51899 Accepted
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51899 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51899 Closing
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51900 Accepted
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51900 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51900 Closing
+[2026-10-20 19:46:20] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51901 Accepted
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51901 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51901 Closing
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51902 Accepted
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51902 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51902 Closing
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51903 Accepted
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51903 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51903 Closing
+[2026-10-20 19:46:20] [ERROR] [PHP ERR] [Tue Oct 20 19:46:20 2026] 127.0.0.1:51904 Accepted
+[2026-10-20 19:46:24] [ERROR] [PHP ERR] [Tue Oct 20 19:46:24 2026] 127.0.0.1:51904 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:46:24] [ERROR] [PHP ERR] [Tue Oct 20 19:46:24 2026] 127.0.0.1:51904 Closing
+[2026-10-20 19:46:24] [ERROR] [PHP ERR] [Tue Oct 20 19:46:24 2026] 127.0.0.1:51905 Accepted
+[2026-10-20 19:46:24] [ERROR] [PHP ERR] [Tue Oct 20 19:46:24 2026] 127.0.0.1:51905 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:46:24] [ERROR] [PHP ERR] [Tue Oct 20 19:46:24 2026] 127.0.0.1:51905 Closing
+[2026-10-20 19:46:24] [ERROR] [PHP ERR] [Tue Oct 20 19:46:24 2026] 127.0.0.1:51918 Accepted
+[2026-10-20 19:46:24] [ERROR] [PHP ERR] [Tue Oct 20 19:46:24 2026] 127.0.0.1:51918 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:46:24] [ERROR] [PHP ERR] [Tue Oct 20 19:46:24 2026] 127.0.0.1:51918 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52144 Accepted
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52145 Accepted
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52144 [200]: GET /
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52144 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52145 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52145 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52146 Accepted
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52146 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52146 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52147 Accepted
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52147 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52147 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52148 Accepted
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52148 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52148 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52149 Accepted
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52149 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52149 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52150 Accepted
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52150 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52150 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52151 Accepted
+[2026-10-20 19:47:20] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52151 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52152 Accepted
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52152 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52152 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52153 Accepted
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52153 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52153 Closing
+[2026-10-20 19:47:20] [ERROR] [PHP ERR] [Tue Oct 20 19:47:20 2026] 127.0.0.1:52154 Accepted
+[2026-10-20 19:47:23] [ERROR] [PHP ERR] [Tue Oct 20 19:47:23 2026] 127.0.0.1:52154 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:47:23] [ERROR] [PHP ERR] [Tue Oct 20 19:47:23 2026] 127.0.0.1:52154 Closing
+[2026-10-20 19:47:23] [ERROR] [PHP ERR] [Tue Oct 20 19:47:23 2026] 127.0.0.1:52155 Accepted
+[2026-10-20 19:47:23] [ERROR] [PHP ERR] [Tue Oct 20 19:47:23 2026] 127.0.0.1:52155 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:47:23] [ERROR] [PHP ERR] [Tue Oct 20 19:47:23 2026] 127.0.0.1:52155 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52273 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52274 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52273 [200]: GET /
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52273 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52274 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52274 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52275 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52275 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52275 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52276 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52276 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52276 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52277 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52277 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52277 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52278 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52278 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52278 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52279 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52279 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52279 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52280 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52280 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52280 Closing
+[2026-10-20 19:47:50] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52281 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52281 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52281 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52282 Accepted
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52282 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52282 Closing
+[2026-10-20 19:47:50] [ERROR] [PHP ERR] [Tue Oct 20 19:47:50 2026] 127.0.0.1:52283 Accepted
+[2026-10-20 19:47:54] [ERROR] [PHP ERR] [Tue Oct 20 19:47:54 2026] 127.0.0.1:52283 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:47:54] [ERROR] [PHP ERR] [Tue Oct 20 19:47:54 2026] 127.0.0.1:52283 Closing
+[2026-10-20 19:47:54] [ERROR] [PHP ERR] [Tue Oct 20 19:47:54 2026] 127.0.0.1:52284 Accepted
+[2026-10-20 19:47:54] [ERROR] [PHP ERR] [Tue Oct 20 19:47:54 2026] 127.0.0.1:52284 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:47:54] [ERROR] [PHP ERR] [Tue Oct 20 19:47:54 2026] 127.0.0.1:52284 Closing
+[2026-10-20 19:47:54] [ERROR] [PHP ERR] [Tue Oct 20 19:47:54 2026] 127.0.0.1:52301 Accepted
+[2026-10-20 19:47:54] [ERROR] [PHP ERR] [Tue Oct 20 19:47:54 2026] 127.0.0.1:52301 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:47:54] [ERROR] [PHP ERR] [Tue Oct 20 19:47:54 2026] 127.0.0.1:52301 Closing
+[2026-10-20 19:48:19] [INFO] Livello tick: timer
+[2026-10-20 19:48:19] [ERROR] [PHP ERR] [Tue Oct 20 19:48:19 2026] 127.0.0.1:52403 Accepted
+[2026-10-20 19:48:19] [ERROR] [PHP ERR] [Tue Oct 20 19:48:19 2026] 127.0.0.1:52403 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:48:19] [ERROR] [PHP ERR] [Tue Oct 20 19:48:19 2026] 127.0.0.1:52403 Closing
+[2026-10-20 19:48:19] [ERROR] [PHP ERR] [Tue Oct 20 19:48:19 2026] 127.0.0.1:52404 Accepted
+[2026-10-20 19:48:22] [ERROR] [PHP ERR] [Tue Oct 20 19:48:22 2026] 127.0.0.1:52404 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:48:22] [ERROR] [PHP ERR] [Tue Oct 20 19:48:22 2026] 127.0.0.1:52404 Closing
+[2026-10-20 19:48:22] [ERROR] [PHP ERR] [Tue Oct 20 19:48:22 2026] 127.0.0.1:52417 Accepted
+[2026-10-20 19:48:22] [ERROR] [PHP ERR] [Tue Oct 20 19:48:22 2026] 127.0.0.1:52417 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:48:22] [ERROR] [PHP ERR] [Tue Oct 20 19:48:22 2026] 127.0.0.1:52417 Closing
+[2026-10-20 19:53:19] [INFO] Livello tick: timer
+[2026-10-20 19:53:19] [ERROR] [PHP ERR] [Tue Oct 20 19:53:19 2026] 127.0.0.1:53600 Accepted
+[2026-10-20 19:53:19] [ERROR] [PHP ERR] [Tue Oct 20 19:53:19 2026] 127.0.0.1:53600 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:53:19] [ERROR] [PHP ERR] [Tue Oct 20 19:53:19 2026] 127.0.0.1:53600 Closing
+[2026-10-20 19:53:19] [ERROR] [PHP ERR] [Tue Oct 20 19:53:19 2026] 127.0.0.1:53601 Accepted
+[2026-10-20 19:53:19] [ERROR] [PHP ERR] [Tue Oct 20 19:53:19 2026] 127.0.0.1:53601 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:53:19] [ERROR] [PHP ERR] [Tue Oct 20 19:53:19 2026] 127.0.0.1:53601 Closing
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53663 Accepted
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53664 Accepted
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53663 [200]: GET /
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53663 Closing
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53664 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53664 Closing
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53665 Accepted
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53665 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53665 Closing
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53666 Accepted
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53666 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53666 Closing
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53667 Accepted
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53667 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53667 Closing
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53668 Accepted
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53668 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53668 Closing
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53669 Accepted
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53669 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53669 Closing
+[2026-10-20 19:53:34] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53670 Accepted
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53670 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53670 Closing
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53671 Accepted
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53671 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53671 Closing
+[2026-10-20 19:53:34] [ERROR] [PHP ERR] [Tue Oct 20 19:53:34 2026] 127.0.0.1:53672 Accepted
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53672 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53672 Closing
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53673 Accepted
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53674 Accepted
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53673 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53673 Closing
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53674 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53674 Closing
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53691 Accepted
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53691 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:53:38] [ERROR] [PHP ERR] [Tue Oct 20 19:53:38 2026] 127.0.0.1:53691 Closing
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53809 Accepted
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53810 Accepted
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53809 [200]: GET /
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53809 Closing
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53810 [200]: GET /assets/index-B3rNLfdS.js
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53810 Closing
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53811 Accepted
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53811 [200]: GET /assets/index-VnqyY4-j.css
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53811 Closing
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53812 Accepted
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53812 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53812 Closing
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53813 Accepted
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53814 Accepted
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53813 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53813 Closing
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53815 Accepted
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53814 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53815 [200]: GET /api/data/cursor-1.png
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53814 Closing
+[2026-10-20 19:54:06] [ERROR] [PHP ERR] [Tue Oct 20 19:54:06 2026] 127.0.0.1:53815 Closing
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53816 Accepted
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53816 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53816 Closing
+[2026-10-20 19:54:07] [INFO] Livello tick: navigation-completed
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53817 Accepted
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53817 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53817 Closing
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53818 Accepted
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53818 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53818 Closing
+[2026-10-20 19:54:07] [ERROR] [PHP ERR] [Tue Oct 20 19:54:07 2026] 127.0.0.1:53819 Accepted
+[2026-10-20 19:54:10] [ERROR] [PHP ERR] [Tue Oct 20 19:54:10 2026] 127.0.0.1:53819 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:54:10] [ERROR] [PHP ERR] [Tue Oct 20 19:54:10 2026] 127.0.0.1:53819 Closing
+[2026-10-20 19:54:10] [ERROR] [PHP ERR] [Tue Oct 20 19:54:10 2026] 127.0.0.1:53820 Accepted
+[2026-10-20 19:54:10] [ERROR] [PHP ERR] [Tue Oct 20 19:54:10 2026] 127.0.0.1:53820 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:54:10] [ERROR] [PHP ERR] [Tue Oct 20 19:54:10 2026] 127.0.0.1:53820 Closing
+[2026-10-20 19:54:10] [ERROR] [PHP ERR] [Tue Oct 20 19:54:10 2026] 127.0.0.1:53837 Accepted
+[2026-10-20 19:54:10] [ERROR] [PHP ERR] [Tue Oct 20 19:54:10 2026] 127.0.0.1:53837 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 19:54:10] [ERROR] [PHP ERR] [Tue Oct 20 19:54:10 2026] 127.0.0.1:53837 Closing
+[2026-10-20 19:58:19] [INFO] Livello tick: timer
+[2026-10-20 19:58:19] [ERROR] [PHP ERR] [Tue Oct 20 19:58:19 2026] 127.0.0.1:54821 Accepted
+[2026-10-20 19:58:19] [ERROR] [PHP ERR] [Tue Oct 20 19:58:19 2026] 127.0.0.1:54821 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 19:58:19] [ERROR] [PHP ERR] [Tue Oct 20 19:58:19 2026] 127.0.0.1:54821 Closing
+[2026-10-20 19:58:19] [ERROR] [PHP ERR] [Tue Oct 20 19:58:19 2026] 127.0.0.1:54822 Accepted
+[2026-10-20 19:58:19] [ERROR] [PHP ERR] [Tue Oct 20 19:58:19 2026] 127.0.0.1:54822 [200]: GET /api/data/fast-backup.php
+[2026-10-20 19:58:19] [ERROR] [PHP ERR] [Tue Oct 20 19:58:19 2026] 127.0.0.1:54822 Closing
+[2026-10-20 20:03:19] [INFO] Livello tick: timer
+[2026-10-20 20:03:19] [ERROR] [PHP ERR] [Tue Oct 20 20:03:19 2026] 127.0.0.1:56076 Accepted
+[2026-10-20 20:03:19] [ERROR] [PHP ERR] [Tue Oct 20 20:03:19 2026] 127.0.0.1:56076 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:03:19] [ERROR] [PHP ERR] [Tue Oct 20 20:03:19 2026] 127.0.0.1:56076 Closing
+[2026-10-20 20:03:19] [ERROR] [PHP ERR] [Tue Oct 20 20:03:19 2026] 127.0.0.1:56080 Accepted
+[2026-10-20 20:03:19] [ERROR] [PHP ERR] [Tue Oct 20 20:03:19 2026] 127.0.0.1:56080 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:03:19] [ERROR] [PHP ERR] [Tue Oct 20 20:03:19 2026] 127.0.0.1:56080 Closing
+[2026-10-20 20:08:19] [INFO] Livello tick: timer
+[2026-10-20 20:08:19] [ERROR] [PHP ERR] [Tue Oct 20 20:08:19 2026] 127.0.0.1:57290 Accepted
+[2026-10-20 20:08:19] [ERROR] [PHP ERR] [Tue Oct 20 20:08:19 2026] 127.0.0.1:57290 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:08:19] [ERROR] [PHP ERR] [Tue Oct 20 20:08:19 2026] 127.0.0.1:57290 Closing
+[2026-10-20 20:08:19] [ERROR] [PHP ERR] [Tue Oct 20 20:08:19 2026] 127.0.0.1:57291 Accepted
+[2026-10-20 20:08:19] [ERROR] [PHP ERR] [Tue Oct 20 20:08:19 2026] 127.0.0.1:57291 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:08:19] [ERROR] [PHP ERR] [Tue Oct 20 20:08:19 2026] 127.0.0.1:57291 Closing
+[2026-10-20 20:13:19] [INFO] Livello tick: timer
+[2026-10-20 20:13:19] [ERROR] [PHP ERR] [Tue Oct 20 20:13:19 2026] 127.0.0.1:58503 Accepted
+[2026-10-20 20:13:19] [ERROR] [PHP ERR] [Tue Oct 20 20:13:19 2026] 127.0.0.1:58503 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:13:19] [ERROR] [PHP ERR] [Tue Oct 20 20:13:19 2026] 127.0.0.1:58503 Closing
+[2026-10-20 20:13:19] [ERROR] [PHP ERR] [Tue Oct 20 20:13:19 2026] 127.0.0.1:58504 Accepted
+[2026-10-20 20:13:19] [ERROR] [PHP ERR] [Tue Oct 20 20:13:19 2026] 127.0.0.1:58504 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:13:19] [ERROR] [PHP ERR] [Tue Oct 20 20:13:19 2026] 127.0.0.1:58504 Closing
+[2026-10-20 20:18:19] [INFO] Livello tick: timer
+[2026-10-20 20:18:19] [ERROR] [PHP ERR] [Tue Oct 20 20:18:19 2026] 127.0.0.1:60274 Accepted
+[2026-10-20 20:18:19] [ERROR] [PHP ERR] [Tue Oct 20 20:18:19 2026] 127.0.0.1:60274 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:18:19] [ERROR] [PHP ERR] [Tue Oct 20 20:18:19 2026] 127.0.0.1:60274 Closing
+[2026-10-20 20:18:19] [ERROR] [PHP ERR] [Tue Oct 20 20:18:19 2026] 127.0.0.1:60275 Accepted
+[2026-10-20 20:18:19] [ERROR] [PHP ERR] [Tue Oct 20 20:18:19 2026] 127.0.0.1:60275 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:18:19] [ERROR] [PHP ERR] [Tue Oct 20 20:18:19 2026] 127.0.0.1:60275 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60853 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60854 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60853 [200]: GET /
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60853 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60854 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60854 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60855 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60855 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60856 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60856 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60855 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60856 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60857 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60857 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60857 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60858 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60858 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60858 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60859 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60859 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60859 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60860 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60860 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60860 Closing
+[2026-10-20 20:19:33] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60861 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60861 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60861 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60862 Accepted
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60862 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60862 Closing
+[2026-10-20 20:19:33] [ERROR] [PHP ERR] [Tue Oct 20 20:19:33 2026] 127.0.0.1:60863 Accepted
+[2026-10-20 20:19:38] [ERROR] [PHP ERR] [Tue Oct 20 20:19:38 2026] 127.0.0.1:60863 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:19:38] [ERROR] [PHP ERR] [Tue Oct 20 20:19:38 2026] 127.0.0.1:60863 Closing
+[2026-10-20 20:19:38] [ERROR] [PHP ERR] [Tue Oct 20 20:19:38 2026] 127.0.0.1:60865 Accepted
+[2026-10-20 20:19:40] [ERROR] [PHP ERR] [Tue Oct 20 20:19:40 2026] 127.0.0.1:60865 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:19:40] [ERROR] [PHP ERR] [Tue Oct 20 20:19:40 2026] 127.0.0.1:60865 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60993 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60994 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60993 [200]: GET /
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60993 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60994 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60994 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60995 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60996 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60995 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60996 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60995 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60996 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60997 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60997 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60997 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60998 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60998 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60998 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60999 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60999 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:60999 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61000 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61000 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61000 Closing
+[2026-10-20 20:19:48] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61001 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61001 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61001 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61002 Accepted
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61002 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61002 Closing
+[2026-10-20 20:19:48] [ERROR] [PHP ERR] [Tue Oct 20 20:19:48 2026] 127.0.0.1:61003 Accepted
+[2026-10-20 20:19:52] [ERROR] [PHP ERR] [Tue Oct 20 20:19:52 2026] 127.0.0.1:61003 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:19:52] [ERROR] [PHP ERR] [Tue Oct 20 20:19:52 2026] 127.0.0.1:61003 Closing
+[2026-10-20 20:19:52] [ERROR] [PHP ERR] [Tue Oct 20 20:19:52 2026] 127.0.0.1:61004 Accepted
+[2026-10-20 20:19:54] [ERROR] [PHP ERR] [Tue Oct 20 20:19:54 2026] 127.0.0.1:61004 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:19:54] [ERROR] [PHP ERR] [Tue Oct 20 20:19:54 2026] 127.0.0.1:61004 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61053 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61054 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61053 [200]: GET /
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61053 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61055 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61054 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61054 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61055 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61055 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61056 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61056 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61056 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61057 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61057 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61057 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61058 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61058 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61058 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61059 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61059 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61059 Closing
+[2026-10-20 20:19:55] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61060 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61060 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61060 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61061 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61061 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61061 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61062 Accepted
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61062 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61062 Closing
+[2026-10-20 20:19:55] [ERROR] [PHP ERR] [Tue Oct 20 20:19:55 2026] 127.0.0.1:61063 Accepted
+[2026-10-20 20:19:59] [ERROR] [PHP ERR] [Tue Oct 20 20:19:59 2026] 127.0.0.1:61063 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:19:59] [ERROR] [PHP ERR] [Tue Oct 20 20:19:59 2026] 127.0.0.1:61063 Closing
+[2026-10-20 20:19:59] [ERROR] [PHP ERR] [Tue Oct 20 20:19:59 2026] 127.0.0.1:61064 Accepted
+[2026-10-20 20:20:02] [ERROR] [PHP ERR] [Tue Oct 20 20:20:02 2026] 127.0.0.1:61064 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:20:02] [ERROR] [PHP ERR] [Tue Oct 20 20:20:02 2026] 127.0.0.1:61064 Closing
+[2026-10-20 20:20:09] [INFO] Stopping PHP server...
+[2026-10-20 20:20:09] [ERROR] PHP process exited. ExitCode: -1
+[2026-10-20 20:20:09] [INFO] PHP server stopped.
+[2026-10-20 20:22:16] [INFO] APP START
+[2026-10-20 20:22:16] [INFO] BaseDirectory: C:\Users\fasjola\Desktop\LocalBackup3\publish\
+[2026-10-20 20:22:16] [INFO] CurrentDirectory: C:\Users\fasjola\Desktop\LocalBackup3\publish
+[2026-10-20 20:22:16] [INFO] OS: Microsoft Windows NT 10.0.19045.0
+[2026-10-20 20:22:16] [INFO] PHP path: C:\Users\fasjola\Desktop\LocalBackup3\publish\php\php.exe
+[2026-10-20 20:22:16] [INFO] PHP exists: True
+[2026-10-20 20:22:16] [INFO] WWW path: C:\Users\fasjola\Desktop\LocalBackup3\publish\www
+[2026-10-20 20:22:16] [INFO] WWW exists: True
+[2026-10-20 20:22:16] [INFO] Selected port: 8899
+[2026-10-20 20:22:16] [INFO] Server URL: http://127.0.0.1:8899/
+[2026-10-20 20:22:16] [INFO] Starting PHP server...
+[2026-10-20 20:22:16] [INFO] PHP arguments: -S 127.0.0.1:8899 -t "C:\Users\fasjola\Desktop\LocalBackup3\publish\www"
+[2026-10-20 20:22:16] [INFO] PHP process started. PID: 8560
+[2026-10-20 20:22:16] [INFO] Waiting for PHP server...
+[2026-10-20 20:22:16] [INFO] Server check attempt 1: http://127.0.0.1:8899/
+[2026-10-20 20:22:17] [ERROR] [PHP ERR] [Tue Oct 20 20:22:16 2026] PHP 8.5.5 Development Server (http://127.0.0.1:8899) started
+[2026-10-20 20:22:17] [ERROR] [PHP ERR] [Tue Oct 20 20:22:17 2026] 127.0.0.1:61687 Accepted
+[2026-10-20 20:22:17] [ERROR] [PHP ERR] [Tue Oct 20 20:22:17 2026] 127.0.0.1:61687 [200]: GET /
+[2026-10-20 20:22:17] [ERROR] [PHP ERR] [Tue Oct 20 20:22:17 2026] 127.0.0.1:61687 Closing
+[2026-10-20 20:22:17] [INFO] Server response: 200 OK
+[2026-10-20 20:22:17] [INFO] PHP server responded OK.
+[2026-10-20 20:22:22] [ERROR] [PHP ERR] [Tue Oct 20 20:22:22 2026] 127.0.0.1:61712 Accepted
+[2026-10-20 20:22:22] [ERROR] [PHP ERR] [Tue Oct 20 20:22:22 2026] 127.0.0.1:61713 Accepted
+[2026-10-20 20:22:22] [ERROR] [PHP ERR] [Tue Oct 20 20:22:22 2026] 127.0.0.1:61712 [200]: GET /
+[2026-10-20 20:22:22] [ERROR] [PHP ERR] [Tue Oct 20 20:22:22 2026] 127.0.0.1:61712 Closing
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61720 Accepted
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61713 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61713 Closing
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61720 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61720 Closing
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61721 Accepted
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61721 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61721 Closing
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61722 Accepted
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61723 Accepted
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61722 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61723 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61722 Closing
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61723 Closing
+[2026-10-20 20:22:23] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61724 Accepted
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61724 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61724 Closing
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61725 Accepted
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61725 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61725 Closing
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61726 Accepted
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61726 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61726 Closing
+[2026-10-20 20:22:23] [ERROR] [PHP ERR] [Tue Oct 20 20:22:23 2026] 127.0.0.1:61727 Accepted
+[2026-10-20 20:22:28] [ERROR] [PHP ERR] [Tue Oct 20 20:22:28 2026] 127.0.0.1:61727 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:22:28] [ERROR] [PHP ERR] [Tue Oct 20 20:22:28 2026] 127.0.0.1:61727 Closing
+[2026-10-20 20:22:28] [ERROR] [PHP ERR] [Tue Oct 20 20:22:28 2026] 127.0.0.1:61728 Accepted
+[2026-10-20 20:22:30] [ERROR] [PHP ERR] [Tue Oct 20 20:22:30 2026] 127.0.0.1:61728 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:22:30] [ERROR] [PHP ERR] [Tue Oct 20 20:22:30 2026] 127.0.0.1:61728 Closing
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61863 Accepted
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61864 Accepted
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61863 [200]: GET /
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61863 Closing
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61865 Accepted
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61864 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61865 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61864 Closing
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61865 Closing
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61866 Accepted
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61866 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61866 Closing
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61867 Accepted
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61867 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61867 Closing
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61868 Accepted
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61868 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61868 Closing
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61869 Accepted
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61869 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61869 Closing
+[2026-10-20 20:22:56] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61870 Accepted
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61870 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61870 Closing
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61871 Accepted
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61871 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61871 Closing
+[2026-10-20 20:22:56] [ERROR] [PHP ERR] [Tue Oct 20 20:22:56 2026] 127.0.0.1:61872 Accepted
+[2026-10-20 20:22:58] [INFO] Użytkownik zażądał anulowania backupu.
+[2026-10-20 20:22:59] [ERROR] [PHP ERR] [Tue Oct 20 20:22:59 2026] 127.0.0.1:61872 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:22:59] [ERROR] [PHP ERR] [Tue Oct 20 20:22:59 2026] 127.0.0.1:61872 Closing
+[2026-10-20 20:22:59] [ERROR] [PHP ERR] [Tue Oct 20 20:22:59 2026] 127.0.0.1:61873 Accepted
+[2026-10-20 20:23:02] [ERROR] [PHP ERR] [Tue Oct 20 20:23:02 2026] 127.0.0.1:61873 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:23:02] [ERROR] [PHP ERR] [Tue Oct 20 20:23:02 2026] 127.0.0.1:61873 Closing
+[2026-10-20 20:23:06] [ERROR] [PHP ERR] [Tue Oct 20 20:23:06 2026] 127.0.0.1:61920 Accepted
+[2026-10-20 20:23:06] [ERROR] [PHP ERR] [Tue Oct 20 20:23:06 2026] 127.0.0.1:61920 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:23:06] [ERROR] [PHP ERR] [Tue Oct 20 20:23:06 2026] 127.0.0.1:61920 Closing
+[2026-10-20 20:23:06] [ERROR] [PHP ERR] [Tue Oct 20 20:23:06 2026] 127.0.0.1:61921 Accepted
+[2026-10-20 20:23:06] [ERROR] [PHP ERR] [Tue Oct 20 20:23:06 2026] 127.0.0.1:61921 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:23:06] [ERROR] [PHP ERR] [Tue Oct 20 20:23:06 2026] 127.0.0.1:61921 Closing
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62093 Accepted
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62094 Accepted
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62093 [200]: GET /
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62093 Closing
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62095 Accepted
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62094 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62095 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62094 Closing
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62095 Closing
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62096 Accepted
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62096 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62096 Closing
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62097 Accepted
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62097 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62097 Closing
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62098 Accepted
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62098 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62098 Closing
+[2026-10-20 20:23:28] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62099 Accepted
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62099 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62099 Closing
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62100 Accepted
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62100 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62100 Closing
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62101 Accepted
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62101 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62101 Closing
+[2026-10-20 20:23:28] [ERROR] [PHP ERR] [Tue Oct 20 20:23:28 2026] 127.0.0.1:62102 Accepted
+[2026-10-20 20:23:32] [ERROR] [PHP ERR] [Tue Oct 20 20:23:32 2026] 127.0.0.1:62102 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:23:32] [ERROR] [PHP ERR] [Tue Oct 20 20:23:32 2026] 127.0.0.1:62102 Closing
+[2026-10-20 20:23:32] [ERROR] [PHP ERR] [Tue Oct 20 20:23:32 2026] 127.0.0.1:62108 Accepted
+[2026-10-20 20:23:32] [ERROR] [PHP ERR] [Tue Oct 20 20:23:32 2026] 127.0.0.1:62112 Accepted
+[2026-10-20 20:23:34] [ERROR] [PHP ERR] [Tue Oct 20 20:23:34 2026] 127.0.0.1:62108 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:23:34] [ERROR] [PHP ERR] [Tue Oct 20 20:23:34 2026] 127.0.0.1:62108 Closing
+[2026-10-20 20:23:34] [ERROR] [PHP ERR] [Tue Oct 20 20:23:34 2026] 127.0.0.1:62112 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:23:34] [ERROR] [PHP ERR] [Tue Oct 20 20:23:34 2026] 127.0.0.1:62112 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62651 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62652 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62651 [200]: GET /
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62651 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62653 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62652 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62653 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62652 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62653 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62654 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62654 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62654 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62655 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62655 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62655 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62656 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62657 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62656 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62657 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62656 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62657 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62658 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62658 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62658 Closing
+[2026-10-20 20:24:37] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62659 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62659 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62659 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62660 Accepted
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62660 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62660 Closing
+[2026-10-20 20:24:37] [ERROR] [PHP ERR] [Tue Oct 20 20:24:37 2026] 127.0.0.1:62661 Accepted
+[2026-10-20 20:24:38] [INFO] Użytkownik zażądał anulowania backupu.
+[2026-10-20 20:24:40] [ERROR] [PHP ERR] [Tue Oct 20 20:24:40 2026] 127.0.0.1:62661 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:24:40] [ERROR] [PHP ERR] [Tue Oct 20 20:24:40 2026] 127.0.0.1:62661 Closing
+[2026-10-20 20:24:40] [ERROR] [PHP ERR] [Tue Oct 20 20:24:40 2026] 127.0.0.1:62662 Accepted
+[2026-10-20 20:24:44] [ERROR] [PHP ERR] [Tue Oct 20 20:24:44 2026] 127.0.0.1:62662 [500]: GET /api/data/fast-backup.php
+[2026-10-20 20:24:44] [ERROR] [PHP ERR] [Tue Oct 20 20:24:44 2026] 127.0.0.1:62662 Closing
+[2026-10-20 20:26:51] [ERROR] [PHP ERR] [Tue Oct 20 20:26:51 2026] 127.0.0.1:63731 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63732 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63731 [200]: GET /
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63731 Closing
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63733 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63732 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63733 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63732 Closing
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63733 Closing
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63734 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63734 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63734 Closing
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63735 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63735 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63735 Closing
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63736 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63736 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63736 Closing
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63737 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63737 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63737 Closing
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63738 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63738 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63738 Closing
+[2026-10-20 20:26:52] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63739 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63739 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63739 Closing
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63740 Accepted
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63740 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63740 Closing
+[2026-10-20 20:26:52] [ERROR] [PHP ERR] [Tue Oct 20 20:26:52 2026] 127.0.0.1:63741 Accepted
+[2026-10-20 20:26:55] [ERROR] [PHP ERR] [Tue Oct 20 20:26:55 2026] 127.0.0.1:63741 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:26:55] [ERROR] [PHP ERR] [Tue Oct 20 20:26:55 2026] 127.0.0.1:63741 Closing
+[2026-10-20 20:26:55] [ERROR] [PHP ERR] [Tue Oct 20 20:26:55 2026] 127.0.0.1:63742 Accepted
+[2026-10-20 20:26:55] [ERROR] [PHP ERR] [Tue Oct 20 20:26:55 2026] 127.0.0.1:63742 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:26:55] [ERROR] [PHP ERR] [Tue Oct 20 20:26:55 2026] 127.0.0.1:63742 Closing
+[2026-10-20 20:26:55] [ERROR] [PHP ERR] [Tue Oct 20 20:26:55 2026] 127.0.0.1:63775 Accepted
+[2026-10-20 20:26:55] [ERROR] [PHP ERR] [Tue Oct 20 20:26:55 2026] 127.0.0.1:63775 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:26:55] [ERROR] [PHP ERR] [Tue Oct 20 20:26:55 2026] 127.0.0.1:63775 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63816 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63817 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63816 [200]: GET /
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63816 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63818 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63817 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63817 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63818 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63818 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63819 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63819 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63819 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63820 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63820 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63820 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63821 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63821 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63821 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63822 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63822 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63822 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63823 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63823 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63823 Closing
+[2026-10-20 20:27:01] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63824 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63824 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63824 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63825 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63825 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63825 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63826 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63826 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63826 Closing
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63827 Accepted
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63827 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:27:01] [ERROR] [PHP ERR] [Tue Oct 20 20:27:01 2026] 127.0.0.1:63827 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63868 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63869 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63868 [200]: GET /
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63868 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63869 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63869 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63870 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63870 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63870 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63871 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63871 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63871 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63872 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63872 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63872 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63873 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63873 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63873 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63874 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63874 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63874 Closing
+[2026-10-20 20:27:06] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63875 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63875 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63875 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63876 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63876 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63876 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63877 Accepted
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63877 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63877 Closing
+[2026-10-20 20:27:06] [ERROR] [PHP ERR] [Tue Oct 20 20:27:06 2026] 127.0.0.1:63878 Accepted
+[2026-10-20 20:27:07] [INFO] Użytkownik zażądał anulowania backupu.
+[2026-10-20 20:27:09] [ERROR] [PHP ERR] [Tue Oct 20 20:27:09 2026] 127.0.0.1:63878 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:27:09] [ERROR] [PHP ERR] [Tue Oct 20 20:27:09 2026] 127.0.0.1:63878 Closing
+[2026-10-20 20:27:09] [ERROR] [PHP ERR] [Tue Oct 20 20:27:09 2026] 127.0.0.1:63879 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63879 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63879 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63936 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63936 [200]: GET /
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63936 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63937 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63937 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63937 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63938 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63939 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63938 [200]: GET /assets/index-sMeny-TK.js
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63940 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63939 [200]: GET /assets/index-DqQTiry3.css
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63940 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63938 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63939 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63940 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63941 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63941 [200]: GET /assets/fast-backup-background-CGc8LwbO.jpg
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63941 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63942 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63942 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63942 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63943 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63943 [200]: GET /api/data/cursor-1.png
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63943 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63944 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63944 [200]: GET /api/data/fast-backup-config-api.php?action=history
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63944 Closing
+[2026-10-20 20:27:13] [INFO] Livello tick: navigation-completed
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63945 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63945 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63945 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63946 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63946 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63946 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63947 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63947 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63947 Closing
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63948 Accepted
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63948 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:27:13] [ERROR] [PHP ERR] [Tue Oct 20 20:27:13 2026] 127.0.0.1:63948 Closing
+[2026-10-20 20:27:21] [INFO] Livello tick: timer
+[2026-10-20 20:27:21] [ERROR] [PHP ERR] [Tue Oct 20 20:27:21 2026] 127.0.0.1:64010 Accepted
+[2026-10-20 20:27:21] [ERROR] [PHP ERR] [Tue Oct 20 20:27:21 2026] 127.0.0.1:64010 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:27:21] [ERROR] [PHP ERR] [Tue Oct 20 20:27:21 2026] 127.0.0.1:64010 Closing
+[2026-10-20 20:27:21] [ERROR] [PHP ERR] [Tue Oct 20 20:27:21 2026] 127.0.0.1:64013 Accepted
+[2026-10-20 20:27:21] [ERROR] [PHP ERR] [Tue Oct 20 20:27:21 2026] 127.0.0.1:64013 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:27:21] [ERROR] [PHP ERR] [Tue Oct 20 20:27:21 2026] 127.0.0.1:64013 Closing
+[2026-10-20 20:32:21] [INFO] Livello tick: timer
+[2026-10-20 20:32:21] [ERROR] [PHP ERR] [Tue Oct 20 20:32:21 2026] 127.0.0.1:49835 Accepted
+[2026-10-20 20:32:21] [ERROR] [PHP ERR] [Tue Oct 20 20:32:21 2026] 127.0.0.1:49835 [200]: GET /api/data/fast-backup-config-api.php
+[2026-10-20 20:32:21] [ERROR] [PHP ERR] [Tue Oct 20 20:32:21 2026] 127.0.0.1:49835 Closing
+[2026-10-20 20:32:21] [ERROR] [PHP ERR] [Tue Oct 20 20:32:21 2026] 127.0.0.1:49836 Accepted
+[2026-10-20 20:32:21] [ERROR] [PHP ERR] [Tue Oct 20 20:32:21 2026] 127.0.0.1:49836 [200]: GET /api/data/fast-backup.php
+[2026-10-20 20:32:21] [ERROR] [PHP ERR] [Tue Oct 20 20:32:21 2026] 127.0.0.1:49836 Closing
+[2026-10-20 20:36:34] [INFO] Stopping PHP server...
+[2026-10-20 20:36:34] [INFO] PHP server stopped.

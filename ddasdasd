@@ -1,0 +1,280 @@
+[33mcommit 1f029fcc1d990d9a9e2689d434d6632b202abd81[m
+Merge: b1c188f 89bbc3f
+Author: dresnok <marcin.dresnok@gmail.com>
+Date:   Mon Oct 12 11:32:56 2026 +0200
+
+    Aktualizacja Livello
+
+ Accessibility.dll                                  |  Bin [31m20776[m -> [32m0[m bytes
+ D3DCompiler_47_cor3.dll                            |  Bin [31m4741488[m -> [32m0[m bytes
+ DirectWriteForwarder.dll                           |  Bin [31m517968[m -> [32m0[m bytes
+ Livello.deps.json                                  |  966 [32m+[m[31m---[m
+ Livello.dll                                        |  Bin [31m39424[m -> [32m38912[m bytes
+ Livello.exe.WebView2/EBWebView/Breadcrumbs         |  129 [32m+[m[31m-[m
+ ...s-6AC11234-D48.pma => BrowserMetrics-spare.pma} |  Bin [31m1310720[m -> [32m1310720[m bytes
+ .../BrowserMetrics-6ABF6B5E-161C.pma               |  Bin [31m1310720[m -> [32m0[m bytes
+ ...7B-187C.pma => BrowserMetrics-6ACCA38B-3BC.pma} |  Bin [31m1310720[m -> [32m1310720[m bytes
+ .../EBWebView/Crashpad/settings.dat                |  Bin [31m288[m -> [32m288[m bytes
+ .../EBWebView/CrashpadMetrics-active.pma           |  Bin [31m16384[m -> [32m16384[m bytes
+ .../EBWebView/Default/Cache/Cache_Data/data_0      |  Bin [31m45056[m -> [32m45056[m bytes
+ .../EBWebView/Default/Cache/Cache_Data/data_1      |  Bin [31m270336[m -> [32m270336[m bytes
+ .../EBWebView/Default/Cache/Cache_Data/data_2      |  Bin [31m1056768[m -> [32m1056768[m bytes
+ .../EBWebView/Default/Cache/Cache_Data/data_3      |  Bin [31m4202496[m -> [32m4202496[m bytes
+ .../EBWebView/Default/Cache/Cache_Data/f_000031    |  Bin [31m0[m -> [32m88188[m bytes
+ .../EBWebView/Default/Cache/Cache_Data/f_00004c    |    3 [32m+[m
+ .../EBWebView/Default/Cache/Cache_Data/f_00004e    |    3 [32m+[m
+ .../EBWebView/Default/Cache/Cache_Data/f_000062    |    3 [32m+[m
+ .../EBWebView/Default/Cache/Cache_Data/f_000064    |    3 [32m+[m
+ .../EBWebView/Default/Cache/Cache_Data/f_00009c    |    3 [32m+[m
+ .../EBWebView/Default/Cache/Cache_Data/f_0000b6    |    3 [32m+[m
+ .../EBWebView/Default/Cache/Cache_Data/f_0000c8    |    2 [32m+[m
+ .../EBWebView/Default/Cache/Cache_Data/f_0000ce    |    2 [32m+[m
+ .../Cache/Cache_Data/{f_00001e => f_0000cf}        |  Bin
+ .../Default/Code Cache/js/0d31eb68e310d76d_0       |  Bin [31m0[m -> [32m209[m bytes
+ .../Default/Code Cache/js/12cf0a0b33ba5ad6_0       |  Bin [31m0[m -> [32m209[m bytes
+ .../Default/Code Cache/js/382401c371e925eb_0       |  Bin [31m0[m -> [32m209[m bytes
+ .../Default/Code Cache/js/5e3f7ebcbf91701f_0       |  Bin [31m0[m -> [32m209[m bytes
+ .../Default/Code Cache/js/b6ce34b0714da4ca_0       |  Bin [31m0[m -> [32m209[m bytes
+ .../Default/Code Cache/js/ce5dc73687cc9a9f_0       |  Bin [31m0[m -> [32m209[m bytes
+ .../Default/Code Cache/js/dba8465346298a27_0       |  Bin [31m0[m -> [32m209[m bytes
+ .../Default/Code Cache/js/ea26eb53fed1326b_0       |  Bin [31m0[m -> [32m209[m bytes
+ .../Default/Code Cache/js/index-dir/the-real-index |  Bin [31m120[m -> [32m312[m bytes
+ Livello.exe.WebView2/EBWebView/Default/DIPS        |  Bin [31m36864[m -> [32m36864[m bytes
+ Livello.exe.WebView2/EBWebView/Default/DIPS-wal    |  Bin [31m0[m -> [32m41232[m bytes
+ .../EBWebView/Default/DawnGraphiteCache/data_1     |  Bin [31m270336[m -> [32m270336[m bytes
+ .../EBWebView/Default/DawnWebGPUCache/data_1       |  Bin [31m270336[m -> [32m270336[m bytes
+ .../Default/EdgeSessions/SessionRestoreLog         |   55 [32m+[m
+ .../EBWebView/Default/Extension Cookies            |  Bin [31m0[m -> [32m20480[m bytes
+ .../EBWebView/Default/Extension Cookies-journal    |    0
+ .../EBWebView/Default/Extension Rules/000003.log   |  Bin [31m38[m -> [32m342[m bytes
+ .../EBWebView/Default/Extension Rules/LOG          |    5 [32m+[m[31m-[m
+ .../EBWebView/Default/Extension Rules/LOG.old      |    3 [32m+[m
+ .../EBWebView/Default/Extension Scripts/000003.log |  Bin [31m38[m -> [32m342[m bytes
+ .../EBWebView/Default/Extension Scripts/LOG        |    5 [32m+[m[31m-[m
+ .../EBWebView/Default/Extension Scripts/LOG.old    |    3 [32m+[m
+ .../EBWebView/Default/Extension State/000003.log   |  Bin [31m114[m -> [32m1026[m bytes
+ .../EBWebView/Default/Extension State/LOG          |    6 [32m+[m[31m-[m
+ .../EBWebView/Default/Extension State/LOG.old      |    6 [32m+[m[31m-[m
+ .../EBWebView/Default/ExtensionActivityEdge        |  Bin [31m32768[m -> [32m32768[m bytes
+ .../EBWebView/Default/GPUCache/data_0              |  Bin [31m45056[m -> [32m45056[m bytes
+ .../EBWebView/Default/GPUCache/data_1              |  Bin [31m270336[m -> [32m270336[m bytes
+ .../EBWebView/Default/GPUCache/data_2              |  Bin [31m1056768[m -> [32m1056768[m bytes
+ Livello.exe.WebView2/EBWebView/Default/History     |  Bin [31m212992[m -> [32m229376[m bytes
+ .../000004.log                                     |    0
+ .../000005.ldb                                     |  Bin [31m0[m -> [32m1044[m bytes
+ .../devtools_devtools_0.indexeddb.leveldb/CURRENT  |    1 [32m+[m
+ .../devtools_devtools_0.indexeddb.leveldb/LOCK     |    0
+ .../devtools_devtools_0.indexeddb.leveldb/LOG      |    7 [32m+[m
+ .../devtools_devtools_0.indexeddb.leveldb/LOG.old  |    3 [32m+[m
+ .../MANIFEST-000001                                |  Bin [31m0[m -> [32m88[m bytes
+ .../Default/Local Storage/leveldb/000003.log       |  Bin [31m1283[m -> [32m5765[m bytes
+ .../EBWebView/Default/Local Storage/leveldb/LOG    |    6 [32m+[m[31m-[m
+ .../Default/Local Storage/leveldb/LOG.old          |    6 [32m+[m[31m-[m
+ .../EBWebView/Default/Network Action Predictor     |  Bin [31m53248[m -> [32m53248[m bytes
+ .../Default/Network/Network Persistent State       |    2 [32m+[m[31m-[m
+ .../EBWebView/Default/Network/TransportSecurity    |    2 [32m+[m[31m-[m
+ Livello.exe.WebView2/EBWebView/Default/Preferences |    2 [32m+[m[31m-[m
+ .../EBWebView/Default/Secure Preferences           |    2 [32m+[m[31m-[m
+ .../EBWebView/Default/Session Storage/LOG          |    4 [32m+[m[31m-[m
+ Livello.exe.WebView2/EBWebView/Default/Shortcuts   |  Bin [31m0[m -> [32m20480[m bytes
+ .../EBWebView/Default/Shortcuts-journal            |    0
+ .../Site Characteristics Database/000003.log       |  Bin [31m562[m -> [32m2212[m bytes
+ .../Default/Site Characteristics Database/LOG      |    6 [32m+[m[31m-[m
+ .../Default/Site Characteristics Database/LOG.old  |    6 [32m+[m[31m-[m
+ .../EBWebView/Default/Sync Data/LevelDB/LOG        |    6 [32m+[m[31m-[m
+ .../EBWebView/Default/Sync Data/LevelDB/LOG.old    |    6 [32m+[m[31m-[m
+ Livello.exe.WebView2/EBWebView/Default/Web Data    |  Bin [31m229376[m -> [32m294912[m bytes
+ .../EBWebView/Default/WebStorage/QuotaManager      |  Bin [31m0[m -> [32m40960[m bytes
+ .../Default/WebStorage/QuotaManager-journal        |    0
+ .../EBWebView/Default/favorites_diagnostic.log     |  210 [32m+[m
+ .../EBWebView/Default/settings_diagnostic.log      | 1876 [32m++++++[m
+ .../EBWebView/Default/shared_proto_db/000003.log   |  Bin [31m6042[m -> [32m8284[m bytes
+ .../EBWebView/Default/shared_proto_db/LOG          |    6 [32m+[m[31m-[m
+ .../EBWebView/Default/shared_proto_db/LOG.old      |    6 [32m+[m[31m-[m
+ .../Default/shared_proto_db/metadata/000003.log    |  Bin [31m988[m -> [32m1736[m bytes
+ .../EBWebView/Default/shared_proto_db/metadata/LOG |    6 [32m+[m[31m-[m
+ .../Default/shared_proto_db/metadata/LOG.old       |    6 [32m+[m[31m-[m
+ .../EBWebView/GrShaderCache/data_0                 |  Bin [31m45056[m -> [32m45056[m bytes
+ .../EBWebView/GrShaderCache/data_1                 |  Bin [31m270336[m -> [32m270336[m bytes
+ .../EBWebView/GrShaderCache/data_3                 |  Bin [31m4202496[m -> [32m4202496[m bytes
+ .../EBWebView/GrShaderCache/f_000004               |  Bin [31m0[m -> [32m30000[m bytes
+ .../EBWebView/GrShaderCache/f_000005               |  Bin [31m0[m -> [32m16472[m bytes
+ .../EBWebView/GrShaderCache/f_000006               |  Bin [31m0[m -> [32m17544[m bytes
+ .../EBWebView/GrShaderCache/f_000007               |  Bin [31m0[m -> [32m16424[m bytes
+ .../EBWebView/GrShaderCache/f_000008               |  Bin [31m0[m -> [32m19880[m bytes
+ .../EBWebView/GrShaderCache/f_000009               |  Bin [31m0[m -> [32m19652[m bytes
+ .../EBWebView/GrShaderCache/f_00000a               |  Bin [31m0[m -> [32m17240[m bytes
+ .../EBWebView/GrShaderCache/f_00000b               |  Bin [31m0[m -> [32m17544[m bytes
+ .../EBWebView/GrShaderCache/f_00000c               |  Bin [31m0[m -> [32m30000[m bytes
+ .../EBWebView/GrShaderCache/f_00000d               |  Bin [31m0[m -> [32m16472[m bytes
+ .../EBWebView/GrShaderCache/f_00000e               |  Bin [31m0[m -> [32m17240[m bytes
+ Livello.exe.WebView2/EBWebView/Last Version        |    2 [32m+[m[31m-[m
+ Livello.exe.WebView2/EBWebView/Local State         |    2 [32m+[m[31m-[m
+ Livello.exe.WebView2/EBWebView/ShaderCache/data_1  |  Bin [31m270336[m -> [32m270336[m bytes
+ .../EBWebView/VariationsRuntimeSeedV2              |  Bin [31m430[m -> [32m433[m bytes
+ .../EBWebView/VariationsSafeSeedV2                 |  Bin [31m1202[m -> [32m1199[m bytes
+ Livello.exe.WebView2/EBWebView/VariationsSeedV2    |  Bin [31m76[m -> [32m1246[m bytes
+ Livello.pdb                                        |  Bin [31m16576[m -> [32m16488[m bytes
+ Livello.runtimeconfig.json                         |    6 [32m+[m[31m-[m
+ Microsoft.CSharp.dll                               |  Bin [31m1005352[m -> [32m0[m bytes
+ Microsoft.DiaSymReader.Native.amd64.dll            |  Bin [31m2195504[m -> [32m0[m bytes
+ Microsoft.VisualBasic.Core.dll                     |  Bin [31m1247016[m -> [32m0[m bytes
+ Microsoft.VisualBasic.Forms.dll                    |  Bin [31m247592[m -> [32m0[m bytes
+ Microsoft.VisualBasic.dll                          |  Bin [31m18768[m -> [32m0[m bytes
+ Microsoft.Win32.Primitives.dll                     |  Bin [31m15184[m -> [32m0[m bytes
+ Microsoft.Win32.Registry.AccessControl.dll         |  Bin [31m34640[m -> [32m0[m bytes
+ Microsoft.Win32.Registry.dll                       |  Bin [31m120656[m -> [32m0[m bytes
+ Microsoft.Win32.SystemEvents.dll                   |  Bin [31m96040[m -> [32m0[m bytes
+ PenImc_cor3.dll                                    |  Bin [31m158032[m -> [32m0[m bytes
+ PresentationCore.dll                               |  Bin [31m8546088[m -> [32m0[m bytes
+ PresentationFramework-SystemCore.dll               |  Bin [31m38736[m -> [32m0[m bytes
+ PresentationFramework-SystemData.dll               |  Bin [31m34640[m -> [32m0[m bytes
+ PresentationFramework-SystemDrawing.dll            |  Bin [31m34600[m -> [32m0[m bytes
+ PresentationFramework-SystemXml.dll                |  Bin [31m34600[m -> [32m0[m bytes
+ PresentationFramework-SystemXmlLinq.dll            |  Bin [31m30504[m -> [32m0[m bytes
+ PresentationFramework.Aero.dll                     |  Bin [31m444240[m -> [32m0[m bytes
+ PresentationFramework.Aero2.dll                    |  Bin [31m448296[m -> [32m0[m bytes
+ PresentationFramework.AeroLite.dll                 |  Bin [31m239440[m -> [32m0[m bytes
+ PresentationFramework.Classic.dll                  |  Bin [31m272168[m -> [32m0[m bytes
+ PresentationFramework.Luna.dll                     |  Bin [31m669520[m -> [32m0[m bytes
+ PresentationFramework.Royale.dll                   |  Bin [31m333608[m -> [32m0[m bytes
+ PresentationFramework.dll                          |  Bin [31m16127784[m -> [32m0[m bytes
+ PresentationNative_cor3.dll                        |  Bin [31m1235720[m -> [32m0[m bytes
+ PresentationUI.dll                                 |  Bin [31m1287976[m -> [32m0[m bytes
+ ReachFramework.dll                                 |  Bin [31m1603368[m -> [32m0[m bytes
+ System.AppContext.dll                              |  Bin [31m15144[m -> [32m0[m bytes
+ System.Buffers.dll                                 |  Bin [31m15144[m -> [32m0[m bytes
+ System.CodeDom.dll                                 |  Bin [31m489296[m -> [32m0[m bytes
+ System.Collections.Concurrent.dll                  |  Bin [31m276264[m -> [32m0[m bytes
+ System.Collections.Immutable.dll                   |  Bin [31m837456[m -> [32m0[m bytes
+ System.Collections.NonGeneric.dll                  |  Bin [31m104232[m -> [32m0[m bytes
+ System.Collections.Specialized.dll                 |  Bin [31m104232[m -> [32m0[m bytes
+ System.Collections.dll                             |  Bin [31m259880[m -> [32m0[m bytes
+ System.ComponentModel.Annotations.dll              |  Bin [31m198440[m -> [32m0[m bytes
+ System.ComponentModel.DataAnnotations.dll          |  Bin [31m16720[m -> [32m0[m bytes
+ System.ComponentModel.EventBasedAsync.dll          |  Bin [31m46888[m -> [32m0[m bytes
+ System.ComponentModel.Primitives.dll               |  Bin [31m79656[m -> [32m0[m bytes
+ System.ComponentModel.TypeConverter.dll            |  Bin [31m747304[m -> [32m0[m bytes
+ System.ComponentModel.dll                          |  Bin [31m30504[m -> [32m0[m bytes
+ System.Configuration.ConfigurationManager.dll      |  Bin [31m1074984[m -> [32m0[m bytes
+ System.Configuration.dll                           |  Bin [31m19280[m -> [32m0[m bytes
+ System.Console.dll                                 |  Bin [31m173864[m -> [32m0[m bytes
+ System.Core.dll                                    |  Bin [31m23376[m -> [32m0[m bytes
+ System.Data.Common.dll                             |  Bin [31m2860840[m -> [32m0[m bytes
+ System.Data.DataSetExtensions.dll                  |  Bin [31m15656[m -> [32m0[m bytes
+ System.Data.dll                                    |  Bin [31m24872[m -> [32m0[m bytes
+ System.Design.dll                                  |  Bin [31m21800[m -> [32m0[m bytes
+ System.Diagnostics.Contracts.dll                   |  Bin [31m16168[m -> [32m0[m bytes
+ System.Diagnostics.Debug.dll                       |  Bin [31m15696[m -> [32m0[m bytes
+ System.Diagnostics.DiagnosticSource.dll            |  Bin [31m415528[m -> [32m0[m bytes
+ System.Diagnostics.EventLog.Messages.dll           |  Bin [31m800552[m -> [32m0[m bytes
+ System.Diagnostics.EventLog.dll                    |  Bin [31m386856[m -> [32m0[m bytes
+ System.Diagnostics.FileVersionInfo.dll             |  Bin [31m46888[m -> [32m0[m bytes
+ System.Diagnostics.PerformanceCounter.dll          |  Bin [31m288552[m -> [32m0[m bytes
+ System.Diagnostics.Process.dll                     |  Bin [31m337704[m -> [32m0[m bytes
+ System.Diagnostics.StackTrace.dll                  |  Bin [31m46928[m -> [32m0[m bytes
+ System.Diagnostics.TextWriterTraceListener.dll     |  Bin [31m67408[m -> [32m0[m bytes
+ System.Diagnostics.Tools.dll                       |  Bin [31m15184[m -> [32m0[m bytes
+ System.Diagnostics.TraceSource.dll                 |  Bin [31m145192[m -> [32m0[m bytes
+ System.Diagnostics.Tracing.dll                     |  Bin [31m16208[m -> [32m0[m bytes
+ System.DirectoryServices.dll                       |  Bin [31m1046312[m -> [32m0[m bytes
+ System.Drawing.Common.dll                          |  Bin [31m1529640[m -> [32m0[m bytes
+ System.Drawing.Design.dll                          |  Bin [31m15144[m -> [32m0[m bytes
+ System.Drawing.Primitives.dll                      |  Bin [31m132904[m -> [32m0[m bytes
+ System.Drawing.dll                                 |  Bin [31m21288[m -> [32m0[m bytes
+ System.Dynamic.Runtime.dll                         |  Bin [31m16208[m -> [32m0[m bytes
+ System.Formats.Asn1.dll                            |  Bin [31m243496[m -> [32m0[m bytes
+ System.Formats.Tar.dll                             |  Bin [31m272168[m -> [32m0[m bytes
+ System.Globalization.Calendars.dll                 |  Bin [31m15656[m -> [32m0[m bytes
+ System.Globalization.Extensions.dll                |  Bin [31m15144[m -> [32m0[m bytes
+ System.Globalization.dll                           |  Bin [31m15696[m -> [32m0[m bytes
+ System.IO.Compression.Brotli.dll                   |  Bin [31m83752[m -> [32m0[m bytes
+ System.IO.Compression.FileSystem.dll               |  Bin [31m15144[m -> [32m0[m bytes
+ System.IO.Compression.Native.dll                   |  Bin [31m828200[m -> [32m0[m bytes
+ System.IO.Compression.ZipFile.dll                  |  Bin [31m55080[m -> [32m0[m bytes
+ System.IO.Compression.dll                          |  Bin [31m264016[m -> [32m0[m bytes
+ System.IO.FileSystem.AccessControl.dll             |  Bin [31m104232[m -> [32m0[m bytes
+ System.IO.FileSystem.DriveInfo.dll                 |  Bin [31m55080[m -> [32m0[m bytes
+ System.IO.FileSystem.Primitives.dll                |  Bin [31m15144[m -> [32m0[m bytes
+ System.IO.FileSystem.Watcher.dll                   |  Bin [31m87848[m -> [32m0[m bytes
+ System.IO.FileSystem.dll                           |  Bin [31m15656[m -> [32m0[m bytes
+ System.IO.IsolatedStorage.dll                      |  Bin [31m91944[m -> [32m0[m bytes
+ System.IO.MemoryMappedFiles.dll                    |  Bin [31m83752[m -> [32m0[m bytes
+ System.IO.Packaging.dll                            |  Bin [31m292648[m -> [32m0[m bytes
+ System.IO.Pipes.AccessControl.dll                  |  Bin [31m16168[m -> [32m0[m bytes
+ System.IO.Pipes.dll                                |  Bin [31m165712[m -> [32m0[m bytes
+ System.IO.UnmanagedMemoryStream.dll                |  Bin [31m15144[m -> [32m0[m bytes
+ System.IO.dll                                      |  Bin [31m15656[m -> [32m0[m bytes
+ System.Linq.Expressions.dll                        |  Bin [31m3675944[m -> [32m0[m bytes
+ System.Linq.Parallel.dll                           |  Bin [31m804648[m -> [32m0[m bytes
+ System.Linq.Queryable.dll                          |  Bin [31m173904[m -> [32m0[m bytes
+ System.Linq.dll                                    |  Bin [31m542544[m -> [32m0[m bytes
+ System.Memory.dll                                  |  Bin [31m157480[m -> [32m0[m bytes
+ System.Net.Http.Json.dll                           |  Bin [31m128808[m -> [32m0[m bytes
+ System.Net.Http.dll                                |  Bin [31m1730344[m -> [32m0[m bytes
+ System.Net.HttpListener.dll                        |  Bin [31m550736[m -> [32m0[m bytes
+ System.Net.Mail.dll                                |  Bin [31m431952[m -> [32m0[m bytes
+ System.Net.NameResolution.dll                      |  Bin [31m112424[m -> [32m0[m bytes
+ System.Net.NetworkInformation.dll                  |  Bin [31m157480[m -> [32m0[m bytes
+ System.Net.Ping.dll                                |  Bin [31m96080[m -> [32m0[m bytes
+ System.Net.Primitives.dll                          |  Bin [31m231248[m -> [32m0[m bytes
+ System.Net.Quic.dll                                |  Bin [31m284456[m -> [32m0[m bytes
+ System.Net.Requests.dll                            |  Bin [31m345896[m -> [32m0[m bytes
+ System.Net.Security.dll                            |  Bin [31m669520[m -> [32m0[m bytes
+ System.Net.ServicePoint.dll                        |  Bin [31m46928[m -> [32m0[m bytes
+ System.Net.Sockets.dll                             |  Bin [31m546640[m -> [32m0[m bytes
+ System.Net.WebClient.dll                           |  Bin [31m169808[m -> [32m0[m bytes
+ System.Net.WebHeaderCollection.dll                 |  Bin [31m67368[m -> [32m0[m bytes
+ System.Net.WebProxy.dll                            |  Bin [31m42792[m -> [32m0[m bytes
+ System.Net.WebSockets.Client.dll                   |  Bin [31m100136[m -> [32m0[m bytes
+ System.Net.WebSockets.dll                          |  Bin [31m190288[m -> [32m0[m bytes
+ System.Net.dll                                     |  Bin [31m17192[m -> [32m0[m bytes
+ System.Numerics.Vectors.dll                        |  Bin [31m15656[m -> [32m0[m bytes
+ System.Numerics.dll                                |  Bin [31m15184[m -> [32m0[m bytes
+ System.ObjectModel.dll                             |  Bin [31m79696[m -> [32m0[m bytes
+ System.Printing.dll                                |  Bin [31m976720[m -> [32m0[m bytes
+ System.Private.CoreLib.dll                         |  Bin [31m13174568[m -> [32m0[m bytes
+ System.Private.DataContractSerialization.dll       |  Bin [31m2082600[m -> [32m0[m bytes
+ System.Private.Uri.dll                             |  Bin [31m259880[m -> [32m0[m bytes
+ System.Private.Xml.Linq.dll                        |  Bin [31m403240[m -> [32m0[m bytes
+ System.Private.Xml.dll                             |  Bin [31m7997224[m -> [32m0[m bytes
+ System.Reflection.DispatchProxy.dll                |  Bin [31m75560[m -> [32m0[m bytes
+ System.Reflection.Emit.ILGeneration.dll            |  Bin [31m15656[m -> [32m0[m bytes
+ System.Reflection.Emit.Lightweight.dll             |  Bin [31m15696[m -> [32m0[m bytes
+ System.Reflection.Emit.dll                         |  Bin [31m128848[m -> [32m0[m bytes
+ System.Reflection.Extensions.dll                   |  Bin [31m15144[m -> [32m0[m bytes
+ System.Reflection.Metadata.dll                     |  Bin [31m1115944[m -> [32m0[m bytes
+ System.Reflection.Primitives.dll                   |  Bin [31m15656[m -> [32m0[m bytes
+ System.Reflection.TypeExtensions.dll               |  Bin [31m42832[m -> [32m0[m bytes
+ System.Reflection.dll                              |  Bin [31m16168[m -> [32m0[m bytes
+ System.Resources.Extensions.dll                    |  Bin [31m137000[m -> [32m0[m bytes
+ System.Resources.Reader.dll                        |  Bin [31m15184[m -> [32m0[m bytes
+ System.Resources.ResourceManager.dll               |  Bin [31m15696[m -> [32m0[m bytes
+ System.Resources.Writer.dll                        |  Bin [31m51024[m -> [32m0[m bytes
+ System.Runtime.CompilerServices.Unsafe.dll         |  Bin [31m15184[m -> [32m0[m bytes
+ System.Runtime.CompilerServices.VisualC.dll        |  Bin [31m30504[m -> [32m0[m bytes
+ System.Runtime.Extensions.dll                      |  Bin [31m17744[m -> [32m0[m bytes
+ System.Runtime.Handles.dll                         |  Bin [31m15184[m -> [32m0[m bytes
+ System.Runtime.InteropServices.JavaScript.dll      |  Bin [31m50984[m -> [32m0[m bytes
+ ....Runtime.InteropServices.RuntimeInformation.dll |  Bin [31m15144[m -> [32m0[m bytes
+ System.Runtime.InteropServices.dll                 |  Bin [31m96080[m -> [32m0[m bytes
+ System.Runtime.Intrinsics.dll                      |  Bin [31m16680[m -> [32m0[m bytes
+ System.Runtime.Loader.dll                          |  Bin [31m15696[m -> [32m0[m bytes
+ System.Runtime.Numerics.dll                        |  Bin [31m329512[m -> [32m0[m bytes
+ System.Runtime.Serialization.Formatters.dll        |  Bin [31m309032[m -> [32m0[m bytes
+ System.Runtime.Serialization.Json.dll              |  Bin [31m15656[m -> [32m0[m bytes
+ System.Runtime.Serialization.Primitives.dll        |  Bin [31m38696[m -> [32m0[m bytes
+ System.Runtime.Serialization.Xml.dll               |  Bin [31m16720[m -> [32m0[m bytes
+ System.Runtime.Serialization.dll                   |  Bin [31m16720[m -> [32m0[m bytes
+ System.Runtime.dll                                 |  Bin [31m43304[m -> [32m0[m bytes
+ System.Security.AccessControl.dll                  |  Bin [31m231248[m -> [32m0[m bytes
+ System.Security.Claims.dll                         |  Bin [31m100176[m -> [32m0[m bytes
+ System.Security.Cryptography.Algorithms.dll        |  Bin [31m17192[m -> [32m0[m bytes
+ System.Security.Cryptography.Cng.dll               |  Bin [31m16208[m -> [32m0[m bytes
+ System.Security.Cryptography.Csp.dll               |  Bin [31m15696[m -> [32m0[m bytes
+ System.Security.Cryptography.Encoding.dll          |  Bin [31m15696[m -> [32m0[m bytes
+ System.Security.Cryptography.OpenSsl.dll           |  Bin [31m15144[m -> [32m0[m bytes
+ System.Security.Cryptography.Pkcs.dll              |  Bin [31m759592[m -> [32m0[m bytes
+ System.Security.Cryptography.Primitives.dll        |  Bin [31m15656[m -> [32m0[m bytes
+ System.Security.Cryptography.ProtectedData.dll     |  Bin [31m55080[m -> [32m0[m bytes
+ System.Security.Cryptography.X509Cert

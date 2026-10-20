@@ -1,65 +1,68 @@
-2:37:51 Microsoft.Shutdown.TabStripModel.CloseTabs
-2:37:51 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
-2:37:51 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
-2:37:51 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
-2:37:51 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
-2:37:51 Microsoft.Shutdown.TabStripModel.CloseWebContentses
-2:37:51 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
-2:37:51 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
-2:37:51 Tab1 RenderProcessGone
-2:37:51 Microsoft.UnloadController.ClearUnloadState
-2:37:51 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
-2:37:51 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
-2:37:51 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
-2:37:51 Microsoft.UnloadController.ClearUnloadState
-2:37:51 Browser1 Close Tab1 at 0
-2:37:51 Tab1 WebContentsDestroyed
-2:37:51 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-2:37:51 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-2:37:51 Microsoft.Shutdown.OnWindowClosing
-2:37:51 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-2:37:51 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-2:37:51 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
-2:37:51 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
-2:37:51 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-2:37:51 Widget Closed: BrowserWidget
-2:37:51 Microsoft.UnloadController.TabStripEmpty
-2:37:51 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-2:37:51 Microsoft.Shutdown.OnWindowClosing
-2:37:51 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-2:37:51 Microsoft.Last_Browser_Removed
-2:37:53 Microsoft.Shutdown.ShutdownIfNoBrowsers
-2:37:53 Microsoft.Shutdown.SetTryingToQuit_Quitting
-2:37:53 Microsoft.Shutdown.NotifyAppTerminating
-2:37:53 Microsoft.Shutdown.OnAppExiting
-2:37:53 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura
-2:37:53 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura.NotificationUIManager_StartShutdown
-2:37:53 Microsoft.Shutdown.HandleAppExitingForPlatform_Aura.CloseAllSecondaryWidgets
-2:37:54 Shutdown
-0:00:00 Startup
-0:00:00 Microsoft.DeleteProfileHelper.CleanUpEphemeralProfiles
-0:00:00 Microsoft.DeleteProfileHelper.CleanUpDeletedProfiles
-0:00:00 Microsoft.NewBrowser_Popup
+0:00:00 Microsoft.DataDeletionHelper.Begin_DeviceBoundSessions
+0:00:00 Microsoft.DataDeletionHelper.End_Synchronous
+0:00:00 Microsoft.DataDeletionHelper.Begin_Synchronous
+0:00:00 Microsoft.DataDeletionHelper.Begin_Cookies
+0:00:00 Microsoft.DataDeletionHelper.Begin_CdmStorage
+0:00:00 Microsoft.DataDeletionHelper.Begin_Quota
+0:00:00 Microsoft.DataDeletionHelper.Begin_LocalStorage
+0:00:00 Microsoft.DataDeletionHelper.Begin_SessionStorage
+0:00:00 Microsoft.DataDeletionHelper.Begin_DeviceBoundSessions
+0:00:00 Microsoft.DataDeletionHelper.End_Synchronous
+0:00:00 Microsoft.DataDeletionHelper.End_Quota
+0:00:00 Microsoft.DataDeletionHelper.End_Quota
 0:00:00 Microsoft.BrowserList.AddBrowser
 0:00:00 Browser1 Insert active Tab1 at 0
 0:00:00 Tab1 StartNav1 #auto_toplevel
 0:00:00 Tab1 StartNav2 #typed
 0:00:00 Tab1 FinishNav1
 0:00:00 Tab1 PageLoad
-0:00:00 Tab1 FinishNav2
-0:00:01 Tab1 PageLoad
-0:00:27 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-0:00:00 Startup
-0:00:00 Microsoft.DeleteProfileHelper.CleanUpEphemeralProfiles
-0:00:00 Microsoft.DeleteProfileHelper.CleanUpDeletedProfiles
-0:00:00 Microsoft.NewBrowser_Popup
-0:00:01 Microsoft.BrowserList.AddBrowser
-0:00:01 Browser1 Insert active Tab1 at 0
-0:00:01 Tab1 StartNav1 #auto_toplevel
-0:00:01 Memory Pressure: Critical
-0:00:01 Tab1 StartNav2 #typed
-0:00:02 Tab1 FinishNav1
-0:00:02 Tab1 PageLoad
+0:00:01 Microsoft.DataDeletionHelper.End_LocalStorage
+0:00:01 Microsoft.DataDeletionHelper.End_LocalStorage
+0:00:01 Microsoft.DataDeletionHelper.End_DeviceBoundSessions
+0:00:01 Microsoft.DataDeletionHelper.End_DeviceBoundSessions
+0:00:01 Microsoft.DataDeletionHelper.End_Cookies
+0:00:01 Microsoft.DataDeletionHelper.End_Cookies
+0:00:01 Microsoft.DataDeletionHelper.End_CdmStorage
+0:00:02 Microsoft.DataDeletionHelper.End_SessionStorage
+0:00:02 Microsoft.DataDeletionHelper.End_SessionStorage
+0:00:02 Microsoft.DataDeletionHelper.End_CdmStorage
 0:00:02 Tab1 FinishNav2
 0:00:02 Tab1 PageLoad
-0:00:24 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:00:35 Reload
+0:00:35 Tab1 StartNav3 #reload
+0:00:35 Tab1 FinishNav3
+0:00:35 Tab1 PageLoad
+0:00:45 DevTools_ToggleWindow
+0:00:45 DevTools_InspectRenderer
+0:00:45 Microsoft.NewBrowser_DevTools
+0:00:45 Microsoft.BrowserList.AddBrowser
+0:00:45 Browser2 Insert active Tab2 at 0
+0:00:45 Tab2 FinishNav4
+0:00:45 Tab2 PageLoad
+0:01:07 Reload
+0:01:07 Tab1 StartNav5 #reload
+0:01:08 Tab1 FinishNav5
+0:01:08 Tab1 PageLoad
+0:01:17 Microsoft.Clipboard.WriteText
+0:01:37 Microsoft.Clipboard.WriteText
+0:02:16 Reload
+0:02:16 Tab1 StartNav6 #reload
+0:02:16 Tab1 FinishNav6
+0:02:16 Tab1 PageLoad
+0:04:31 Reload
+0:04:31 Tab1 StartNav7 #reload
+0:04:31 Tab1 FinishNav7
+0:04:31 Tab1 PageLoad
+0:04:40 Reload
+0:04:40 Tab1 StartNav8 #reload
+0:04:40 Tab1 FinishNav8
+0:04:40 Tab1 PageLoad
+0:04:45 Reload
+0:04:45 Tab1 StartNav9 #reload
+0:04:45 Tab1 FinishNav9
+0:04:45 Tab1 PageLoad
+0:04:52 Reload
+0:04:52 Tab1 StartNav10 #reload
+0:04:52 Tab1 FinishNav10
+0:04:52 Tab1 PageLoad
+0:14:14 Microsoft.Shutdown.OnWindowClosing
